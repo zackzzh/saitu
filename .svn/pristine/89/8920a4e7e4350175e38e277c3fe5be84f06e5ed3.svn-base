@@ -1,0 +1,75 @@
+<div class="common-footer-div">
+    <!-- <img class="common-footer-logo1" src="" alt="logo1" />
+    <div class="common-footer-content container">
+        专注高端留学申请，长期与各大名校保持亲密的互动关系，与名校实现了无缝对接，准确且快速。涵盖语言培训，游学考察，留学申请，背景提升的全阶段产业链服务。我们的留学顾问有着多年的海外留学或从业经验，期间经过多年的沉淀也与一些学校有着深层的信赖关系，为同学打通去高校的绿色通道。
+    </div> -->
+    <div class="common-footer-links">
+        <div class="row container common-footer-links-row">
+            <div id="footer-experts" class="col common-footer-link-border">师资力量<span class="sr-only">(experts)</span>
+            </div>
+            <div id="footer-course" class="col common-footer-link-border">课程简介<span class="sr-only">(course)</span>
+            </div>
+            <div id="footer-study-abroad" class="col common-footer-link-border">留学服务<span
+                    class="sr-only">(studyAbroad)</span>
+            </div>
+            <div id="footer-study-tour" class="col common-footer-link-border">游学服务<span
+                    class="sr-only">(studyTour)</span>
+            </div>
+            <div id="footer-news" class="col common-footer-link-border">赛图时讯<span class="sr-only">(news)</span></div>
+            <div id="footer-join" class="col common-footer-link-border">加入我们<span class="sr-only">(join)</span></div>
+            <div id="footer-about" class="col common-footer-link-border">关于赛图<span class="sr-only">(about)</span></div>
+            <div id="footer-material" class="col">资料下载<span class="sr-only">(material)</span></div>
+        </div>
+    </div>
+    <div class="common-footer-logo-div">
+        <!-- <img class="common-footer-logo2" src="" alt="logo2" /> -->
+        <img class="common-footer-logo3" src="" alt="logo3" />
+    </div>
+    <img class="common-footer-phone" src="" alt="phone" />
+    <img class="common-footer-address" src="" alt="address" />
+    <div class="container common-footer-line"></div>
+    <div class="common-footer-copyright">
+        Copyright Notice © 2017 - 2018
+    </div>
+    <div class="common-footer-licence">
+        增值电信业务经营许可证: *********** | ICP备**********号 | 京*网安备 *********号 | 经营证照
+    </div>
+</div>
+<script>
+    $(".common-footer-logo1").attr("src", dotsSum + "img/footer/logo3.png");
+    $(".common-footer-logo2").attr("src", dotsSum + "img/footer/logo2.png");
+    $(".common-footer-logo3").attr("src", dotsSum + "img/footer/logo3.png");
+    $(".common-footer-phone").attr("src", dotsSum + "img/footer/phone.png");
+    $(".common-footer-address").attr("src", dotsSum + "img/footer/address.png");
+
+
+    // footer-active-item
+    var locationPath = window.location.pathname
+    var pathRegex1 = /\w+[-]*\w+.html$/
+    var locationRegex = locationPath.match(pathRegex1)
+    if (locationRegex) {
+        var pathRegex2 = /^\w+[-]*\w+/
+        var pathId = locationRegex[0].match(pathRegex2)
+        // console.log("locationPath", pathId);
+        if (pathId) {
+            var itemId = "#" + "footer-" + pathId[0]
+            // active
+            $(itemId).addClass("footer-active-item");
+        }
+    }
+
+    $(".col").click(function () {
+        var textData = $(this).text(); // 用$(this)
+        var aRegex = /(\w+)/
+        var textRegex = textData.match(aRegex)
+        if (textRegex) {
+            var pathName = textRegex[0]
+            if (pathName === "home") {
+                pathName = "/"
+            }
+            $go({
+                path: pathName
+            })
+        }
+    });
+</script>

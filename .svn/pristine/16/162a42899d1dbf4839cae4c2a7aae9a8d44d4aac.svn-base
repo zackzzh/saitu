@@ -1,0 +1,397 @@
+.index {
+    width         : 100%;
+    overflow-x    : hidden;
+    background    : #E9EBEB;
+    padding-bottom: 120px;
+
+    // 轮播
+    .swiper-container {
+        img {
+            width: 100%;
+        }
+    }
+
+    //留学
+    .liuxue {
+        .liuxue-left {
+            // width     : 56%;
+
+
+            img {
+                margin-bottom: 14px;
+                width        : 100%
+            }
+
+            img:last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+        .liuxue-right {
+            // width   : 44%;
+            position   : relative;
+            z-index    : 1;
+
+            img {
+                width : 100%;
+                height: 100%;
+            }
+
+            .liuxue-content {
+                position  : absolute;
+                bottom    : 20px;
+                left      : 50%;
+                text-align: center;
+                transform : translateX(-50%);
+                z-index   : 100;
+                color     : #0C0C0C;
+                box-sizing: border-box;
+                width     : 90%;
+
+                .content-one {
+                    font-size: 28px;
+                }
+
+                .content-two {
+                    font-size         : 20px;
+                    display           : -webkit-box;
+                    -webkit-box-orient: vertical;
+                    overflow          : hidden;
+                    text-overflow     : ellipsis;
+                    -webkit-line-clamp: 4;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+    }
+
+    //about
+    .about {
+        img {
+            width: 100%;
+        }
+
+        .right-top {
+            color        : #042239;
+            font-size    : 34px;
+            margin-bottom: 28px;
+            font-weight  : bold;
+        }
+
+        .right-mid {
+            color        : #0C0C0C;
+            font-size    : 26px;
+            line-height  : 36px;
+            margin-bottom: 38px;
+        }
+
+        .right-button {
+            .button-one {
+                width        : 55%;
+                text-align   : center;
+                font-size    : 28px;
+                color        : rgba(4, 34, 57, 1);
+                background   : rgba(255, 255, 255, 1);
+                box-shadow   : 0px 3px 12px 0px rgba(32, 39, 82, 0.3);
+                border-radius: 10px;
+                margin-right : 5%;
+                border       : none;
+            }
+
+            .button-two {
+                border       : none;
+                width        : 40%;
+                font-size    : 28px;
+                background   : rgba(4, 34, 57, 1);
+                box-shadow   : 0px 3px 12px 0px rgba(32, 39, 82, 0.3);
+                border-radius: 10px;
+                color        : #fff;
+            }
+        }
+    }
+
+    // 公共title
+    .index-t {
+        color        : #0C273C;
+        width        : 360px;
+        padding-top  : 92px;
+        margin-bottom: 36px;
+
+        div:nth-child(1) {
+            font-size: 32px;
+        }
+
+        div:nth-child(2) {
+            font-size : 26px;
+            position  : relative;
+            display   : inline-block;
+            margin-top: 10px;
+
+            &::after {
+                position: absolute;
+                top     : -5px;
+                right   : 0;
+                content : "";
+                width   : 100%;
+                height  : 0;
+                border  : 2px solid #0C273C;
+            }
+        }
+    }
+
+
+    .team {
+        cursor  : pointer;
+        position: relative;
+
+        .more {
+            cursor     : pointer;
+            width      : 110px;
+            height     : 30px;
+            background : #EB6D6E;
+            text-align : center;
+            line-height: 30px;
+            font-size  : 14px;
+            margin     : 0px auto;
+            margin-top : 20px;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        .img {
+            width   : 100%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+
+            img:hover {
+                transition        : All 0.4s ease-in-out;
+                -webkit-transition: All 0.4s ease-in-out;
+                -moz-transition   : All 0.4s ease-in-out;
+                -o-transition     : All 0.4s ease-in-out;
+                transform         : scale(1.2);
+                -webkit-transform : scale(1.2);
+                -moz-transform    : scale(1.2);
+                -o-transform      : scale(1.2);
+                -ms-transform     : scale(1.2);
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .team-bg {
+            padding          : 0;
+            background-image : url('../img/index/ybg.png');
+            background-repeat: no-repeat;
+            background-size  : 100% 100%;
+        }
+
+        color:#0C273C;
+
+        .team-name {
+            font-size: 22px;
+        }
+
+        .team-line {
+            width     : 80%;
+            margin    : 5px 0;
+            height    : 1px;
+            background: #000;
+        }
+
+        .team-school {
+            font-size: 16px;
+            color    : #344554;
+        }
+
+        .team-techol {
+            font-size: 16px;
+            color    : #414F5C;
+        }
+    }
+
+    //录取榜
+    .cases {
+        .cases-bg {
+            background-image : url('../img/index/lbg.png');
+            background-repeat: no-repeat;
+            background-size  : 100% 100%;
+            padding          : 30px;
+
+            .bg-top {
+                width        : 100%;
+                text-align   : center;
+                color        : #EB6D6E;
+                font-size    : 22px;
+                position     : relative;
+                margin-bottom: 20px;
+
+                .top-title {
+                    font-size: 36px;
+                }
+
+                .top-line {
+                    width        : 10px;
+                    height       : 10px;
+                    border-radius: 50%;
+                    background   : #EB6D6E;
+                    margin       : 15px auto;
+                    position     : relative;
+
+                    &::after {
+                        position: absolute;
+                        top     : 3px;
+                        left    : 40px;
+                        content : "";
+                        width   : 1000%;
+                        height  : 0;
+                        border  : 1px solid #EB6D6E;
+                    }
+
+                    &::before {
+                        right   : 40px;
+                        position: absolute;
+                        top     : 3px;
+                        content : "";
+                        width   : 1000%;
+                        height  : 0;
+                        border  : 1px solid #EB6D6E;
+                    }
+                }
+            }
+
+            .cases-item {
+                // background   : #ADB7BE;
+                color           : #1C3649;
+                font-size       : 16px;
+                height          : 78px;
+                position        : relative;
+                margin-bottom   : 10px;
+                box-sizing      : border-box;
+
+                .item-one {
+                    background: #ADB7BE;
+                    width     : 100%;
+                }
+
+                .img {
+                    width      : 40%;
+                    height     : 78px;
+                    position   : relative;
+                    flex-shrink: 0;
+
+                    img {
+                        width       : 100%;
+                        padding-left: 10px;
+                        position    : absolute;
+                        top         : 50%;
+                        transform   : translateY(-50%);
+                        margin      : auto;
+                        height      : 55px;
+                    }
+                }
+
+
+
+                // padding-right: 0px !important;
+                .casae-title {
+                    width     : 100%;
+                    font-size : 12px;
+                    height    : 78px;
+                    text-align: center;
+                }
+
+                .cases-number {
+                    background : #AF9786;
+                    color      : #fff;
+                    height     : 78px;
+                    width      : 60px;
+                    text-align : center;
+                    line-height: 78px;
+                }
+            }
+        }
+
+        .more {
+            cursor     : pointer;
+            width      : 110px;
+            height     : 30px;
+            background : #EB6D6E;
+            text-align : center;
+            line-height: 30px;
+            font-size  : 14px;
+            color      : #fff;
+            margin     : 0px auto;
+            margin-top : 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .liuxue-left {
+        margin-bottom: 14px;
+    }
+
+    .liuxue-content {
+        bottom: 13px !important;
+
+        .content-one {
+            font-size: 20px !important;
+        }
+
+        .content-two {
+            font-size: 16px !important;
+        }
+    }
+
+    .cases-bg {
+        padding: 10px !important;
+
+        .casae-title {
+            font-size: 12px !important;
+        }
+    }
+
+    .right-top {
+        font-size    : 25px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .right-button {
+        .button-one {
+            font-size: 14px !important;
+        }
+
+        .button-two {
+            font-size: 14px !important;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .right-top {
+        font-size    : 25px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .right-mid {
+        font-size    : 13px !important;
+        margin-bottom: 9px !important;
+    }
+
+    .right-button {
+        .button-one {
+            font-size: 16px !important;
+        }
+
+        .button-two {
+            font-size: 16px !important;
+        }
+    }
+}

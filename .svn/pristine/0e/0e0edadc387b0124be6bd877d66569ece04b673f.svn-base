@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/material-detail.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <title>赛图资料详情</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+    <div class="page-material-detail">
+        <div class="banner">
+            <img src="./img/material/banner.png" alt="">
+            <div class="add-us">加入我们</div>
+        </div>
+        <div class="container">
+            <div class="search d-flex align-items-center">
+                <div class="search-one d-flex align-items-center">
+                    <img src="./img/material/m1.png" alt="">
+                    我的收藏
+                </div>
+                <div class="search-one d-flex align-items-center">
+                    <img src="./img/material/m2.png" alt="">
+                    我的下载
+                </div>
+                <div class="search-two d-flex align-items-center">
+                    <input type="text">
+                    <img src="./img/material/m3.png" alt="">
+                </div>
+                <div class="search-three">
+                    赛图资料
+                </div>
+            </div>
+            <div class="index-t">
+                <div>赛图资料</div>
+                <div>SEA RESOURCES</div>
+            </div>
+            <div class="main d-flex flex-wrap">
+                <div class="main-left col-xl-3 col-md-3 col-sm-12">
+                    <div class="left-item active">雅思</div>
+                    <div class="left-item">托福</div>
+                    <div class="left-item">环球在线</div>
+                    <div class="left-item">STA/ACT</div>
+                    <div class="left-item">GRE/ACT</div>
+                </div>
+                <div class="main-right col-xl-9 col-md-9 col-sm-12 d-flex flex-wrap">
+                    <div class="right-title">2019年5月4日雅思写作考试回忆</div>
+                    <div class="right-auth">
+                        编辑: 长安
+                    </div>
+                    <div class="right-content">
+                        2019年5月4日的雅思写作考试中，小作文为柱状图+饼状图，大作文题型为观点类，题材属科技+老年人与年轻人的区别+求职类。
+                    </div>
+                    <img src="./img/material/m-d.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script>
+        $('.collect').click(function () {
+            $go({
+                path: 'materialCollect'
+            })
+        })
+        $('.download').click(function () {
+            $go({
+                path: 'materialDownload'
+            })
+        })
+        $('.add-us').click(function () {
+            $go({
+                path: 'join'
+            })
+        })
+    </script>
+</body>
+
+</html>

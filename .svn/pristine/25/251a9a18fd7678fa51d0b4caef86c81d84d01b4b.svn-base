@@ -1,0 +1,8 @@
+<div class="common-qr-div">
+    <img class="common-qr-img" src="" alt="公众号.png"/>
+    <div class="common-qr-title">微信扫一扫</div>
+    <div class="common-qr-subtitle">关注公众号</div>
+</div>
+<script>
+    $(".common-qr-img").attr("src", dotsSum + "img/saituQR.jpg");
+</script>

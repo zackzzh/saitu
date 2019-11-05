@@ -1,0 +1,9 @@
+#app {
+    h1 {
+        color:red;
+        span {
+            font-size: 30px;
+            color: blue;
+        }
+    }
+}

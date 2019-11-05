@@ -1,0 +1,57 @@
+.common-head-main-div {
+  width: 100%;
+  text-align: center;
+}
+.common-head-main-div .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.common-head-main-div .navbar-brand .common-head-logo {
+  width: 94px;
+  margin: 4px 0 10px 0;
+}
+.common-head-main-div .navbar-brand .common-head-phone {
+  display: inline-block;
+  text-align: left;
+  margin-left: 6px;
+  padding-left: 6px;
+  border-left: 1px solid #FF5B5B;
+  color: #FF5B5B;
+}
+.common-head-main-div .navbar-brand .common-head-phone .common-head-phone-title {
+  font-size: 14px;
+}
+.common-head-main-div .navbar {
+  padding: 0;
+}
+.common-head-main-div .navbar .nav-item {
+  padding: 4px 6px;
+}
+.common-head-main-div .navbar .nav-item .nav-link {
+  color: #FF5B5B !important;
+  font-weight: bold;
+}
+.common-head-main-div .navbar .nav-item .dropdown-menu {
+  background: #422d2d;
+}
+.common-head-main-div .navbar .nav-item .dropdown-menu .dropdown-item {
+  color: #FF5B5B !important;
+}
+.common-head-main-div .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+  background: #FF5B5B !important;
+  color: #0C273C !important;
+}
+.common-head-main-div .navbar .nav-item:hover {
+  background: #FF5B5B;
+}
+.common-head-main-div .navbar .nav-item:hover .nav-link {
+  color: #0C273C !important;
+  font-weight: bold;
+}
+.common-head-main-div .navbar .active {
+  background: #FF5B5B;
+}
+.common-head-main-div .navbar .active .nav-link {
+  color: #0C273C !important;
+  font-weight: bold;
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet/less" href="./css/index.less" />
+	<link rel="stylesheet" href="./swiper/css/swiper.min.css">
+	<script src="./config/dots_sum.js"></script>
+	<script src="./config/head_import.js"></script>
+	<script src="./swiper/js/swiper.min.js"></script>
+
+	<title>赛图</title>
+</head>
+
+<body>
+	<div id="common-modal"></div>
+	<div class="index">
+		<!-- 轮播 -->
+		<div class="index-head-div">
+			<img class="index-head-banner" src="./img/index/banner.png" />
+			<div class="index-head-text">
+				<div class="index-head-title">赛图国际教育</div>
+				<div class="index-head-subtitle">
+					专注高端留学申请，长期与各大名校保持亲密的互动关系，与名校实现了无缝对接，准确且快速。
+				</div>
+				<img class="index-head-join" src="./img/index/join.png" />
+			</div>
+		</div>
+		<!-- <div class="swiper-container index-head-div">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img class="index-head-banner" src="./img/index/banner.png" />
+				</div>
+				<div class="swiper-slide">
+					<img class="index-head-banner" src="./img/index/banner.png" />
+				</div>
+				<div class="swiper-slide">
+					<img class="index-head-banner" src="./img/index/banner.png" />
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div> -->
+		<!-- 留学 -->
+		<div id="common-head"></div>
+		<div class="liuxue container">
+			<div class="index-t">
+				<div>语言培训项目</div>
+				<div>Language Training Program</div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-md-5 service-effect liuxue-right">
+					<img src="./img/index/x4.png" alt="">
+					<div class="liuxue-content">
+						<div class="content-one">留学项目</div>
+						<div class="content-line"></div>
+						<div class="content-two">
+							启尚的教师全部出身于译员，教学经验最低5年。精通双语的专业教师团队站在特有的高度帮学生审视其语言学习在各个方面的欠缺与不足，并给出一针见血一步到位的个性化学习计划和辅导。
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7 service-effect liuxue-left">
+					<img src="./img/index/x1.png" alt="">
+					<img src="./img/index/x2.png" alt="">
+					<img src="./img/index/x3.png" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 专家团队 -->
+		<div class="container team">
+			<div class="index-t">
+				<div>师资力量</div>
+				<div>Professional faculty</div>
+			</div>
+			<div class="d-flex flex-wrap">
+				<div class="col-sm-6 col-md-4 col-xl-3 team-item p-2">
+					<img src="img/index/p1.png" alt="">
+					<div class="team-name">简振文</div>
+					<div class="team-line"></div>
+					<div class="team-school">德国基尔艺术学院</div>
+					<div class="team-techol">工业设计</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-3 team-item p-2">
+					<img src="img/index/p2.png" alt="">
+					<div class="team-name">简振文</div>
+					<div class="team-line"></div>
+					<div class="team-school">德国基尔艺术学院</div>
+					<div class="team-techol">工业设计</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-3 team-item p-2">
+					<img src="img/index/p3.png" alt="">
+					<div class="team-name">简振文</div>
+					<div class="team-line"></div>
+					<div class="team-school">德国基尔艺术学院</div>
+					<div class="team-techol">工业设计</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-3 team-item p-2">
+					<img src="img/index/p4.png" alt="">
+					<div class="team-name">简振文</div>
+					<div class="team-line"></div>
+					<div class="team-school">德国基尔艺术学院</div>
+					<div class="team-techol">工业设计</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-3 team-item p-2">
+					<img src="img/index/p5.png" alt="">
+					<div class="team-name">简振文</div>
+					<div class="team-line"></div>
+					<div class="team-school">德国基尔艺术学院</div>
+					<div class="team-techol">工业设计</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-3 team-item p-2">
+					<img src="img/index/p6.png" alt="">
+					<div class="team-name">简振文</div>
+					<div class="team-line"></div>
+					<div class="team-school">德国基尔艺术学院</div>
+					<div class="team-techol">工业设计</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-3 team-item p-2">
+					<img src="img/index/p7.png" alt="">
+					<div class="team-name">简振文</div>
+					<div class="team-line"></div>
+					<div class="team-school">德国基尔艺术学院</div>
+					<div class="team-techol">工业设计</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-3 team-item p-2 p-2">
+					<img src="img/index/p8.png" alt="">
+					<div class="team-name">简振文</div>
+					<div class="team-line"></div>
+					<div class="team-school">德国基尔艺术学院</div>
+					<div class="team-techol">工业设计</div>
+				</div>
+			</div>
+		</div>
+		<!-- 成功案例 -->
+		<div class="container cases">
+			<div class="index-t">
+				<div>成功案例</div>
+				<div>Successful cases</div>
+			</div>
+			<div class="cases-bg">
+				<div class="bg-top">
+					<div class="top-title">录取榜</div>
+					<div class="top-line"></div>
+					<div>Admission list</div>
+				</div>
+				<div class="d-flex flex-wrap p-2 cases-list">
+					<div class="d-flex align-items-center col-md-6 col-xl-4 team-item cases-item">
+						<div class="d-flex align-items-center flex-shrink-1 item-one">
+							<div class="img">
+								<img src="img/index/l1.png" alt="">
+							</div>
+							<div class="casae-title d-flex flex-column-reverse justify-content-center">
+								<div>普林斯顿大学</div>
+								<div>Princeton university</div>
+							</div>
+						</div>
+						<div class="cases-number flex-shrink-0">12人</div>
+					</div>
+					<div class="d-flex align-items-center col-md-6 col-xl-4 team-item cases-item">
+						<div class="d-flex align-items-center flex-shrink-1 item-one">
+							<div class="img">
+								<img src="img/index/l1.png" alt="">
+							</div>
+							<div class="casae-title d-flex flex-column-reverse justify-content-center">
+								<div>普林斯顿大学</div>
+								<div>Princeton university</div>
+							</div>
+						</div>
+						<div class="cases-number flex-shrink-0">12人</div>
+					</div>
+					<div class="d-flex align-items-center col-md-6 col-xl-4 team-item cases-item">
+						<div class="d-flex align-items-center flex-shrink-1 item-one">
+							<div class="img">
+								<img src="img/index/l1.png" alt="">
+							</div>
+							<div class="casae-title d-flex flex-column-reverse justify-content-center">
+								<div>普林斯顿大学</div>
+								<div>Princeton university</div>
+							</div>
+						</div>
+						<div class="cases-number flex-shrink-0">12人</div>
+					</div>
+					<div
+						class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+						<div class="d-flex align-items-center flex-shrink-1 item-one">
+							<div class="img">
+								<img src="img/index/l1.png" alt="">
+							</div>
+							<div class="casae-title d-flex flex-column-reverse justify-content-center">
+								<div>普林斯顿大学</div>
+								<div>Princeton university</div>
+							</div>
+						</div>
+						<div class="cases-number flex-shrink-0">12人</div>
+					</div>
+					<div
+						class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+						<div class="d-flex align-items-center flex-shrink-1 item-one">
+							<div class="img">
+								<img src="img/index/l1.png" alt="">
+							</div>
+							<div class="casae-title d-flex flex-column-reverse justify-content-center">
+								<div>普林斯顿大学</div>
+								<div>Princeton university</div>
+							</div>
+						</div>
+						<div class="cases-number flex-shrink-0">12人</div>
+					</div>
+					<div
+						class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+						<div class="d-flex align-items-center flex-shrink-1 item-one">
+							<div class="img">
+								<img src="img/index/l1.png" alt="">
+							</div>
+							<div class="casae-title d-flex flex-column-reverse justify-content-center">
+								<div>普林斯顿大学</div>
+								<div>Princeton university</div>
+							</div>
+						</div>
+						<div class="cases-number flex-shrink-0">12人</div>
+					</div>
+					<div
+						class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+						<div class="d-flex align-items-center flex-shrink-1 item-one">
+							<div class="img">
+								<img src="img/index/l1.png" alt="">
+							</div>
+							<div class="casae-title d-flex flex-column-reverse justify-content-center">
+								<div>普林斯顿大学</div>
+								<div>Princeton university</div>
+							</div>
+						</div>
+						<div class="cases-number flex-shrink-0">12人</div>
+					</div>
+					<div
+						class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+						<div class="d-flex align-items-center flex-shrink-1 item-one">
+							<div class="img">
+								<img src="img/index/l1.png" alt="">
+							</div>
+							<div class="casae-title d-flex flex-column-reverse justify-content-center">
+								<div>普林斯顿大学</div>
+								<div>Princeton university</div>
+							</div>
+						</div>
+						<div class="cases-number flex-shrink-0">12人</div>
+					</div>
+				</div>
+				<div class="more">
+					more>>
+				</div>
+			</div>
+
+		</div>
+		<!-- 为什么选择我们 -->
+		<div class="container team">
+			<div class="index-t">
+				<div>为什么选择我们</div>
+				<div>Why Choose us</div>
+			</div>
+			<div class="d-flex flex-wrap">
+				<div class="col-sm-6 col-md-4 col-xl-4 team-item p-2">
+					<img src="img/index/c1.png" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-4 team-item p-2">
+					<img src="img/index/c2.png" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-4 team-item p-2">
+					<img src="img/index/c3.png" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-4 team-item p-2">
+					<img src="img/index/c4.png" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-4 team-item p-2">
+					<img src="img/index/c5.png" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4 col-xl-4 team-item p-2">
+					<img src="img/index/c6.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="common-footer"></div>
+	<script src="./config/body_import.js"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container', {
+			loop: true,
+			// 如果需要分页器
+			pagination: '.swiper-pagination',
+			// 如果需要前进后退按钮
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+		})  
+	</script>
+</body>
+
+</html>

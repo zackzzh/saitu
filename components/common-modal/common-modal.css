@@ -1,0 +1,131 @@
+.common-modal {
+  position: fixed;
+  bottom: 20%;
+  right: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  width: 300px;
+  height: auto;
+  z-index: 10;
+  display: block;
+  opacity: 0;
+}
+.common-modal .modal-top {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  position: relative;
+}
+.common-modal .modal-top .top-one {
+  font-size: 25px;
+}
+.common-modal .modal-top .top-two {
+  font-size: 16px;
+}
+.common-modal .modal-top .top-two span {
+  color: #FF5B5B;
+}
+.common-modal .modal-top .top-three {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.common-modal form {
+  margin: 0px 20px;
+}
+.common-modal form .form-check-label {
+  color: #fff;
+}
+.common-modal form .form-check-label a {
+  color: #FF5B5B;
+}
+.common-modal form .form-group {
+  background: #f9f9f9;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background: #fff;
+}
+.common-modal form .form-group select {
+  height: 30px;
+  border: none;
+  background: transparent;
+  text-align: center;
+  width: 100%;
+}
+.common-modal form .form-group .form-control {
+  height: 20px;
+  padding: 0;
+}
+.common-modal form .form-group label {
+  font-size: 16px;
+  color: #25181C;
+  flex-shrink: 0;
+  margin-bottom: 0px;
+}
+.common-modal form .form-group .none {
+  border: none;
+  width: 100%;
+}
+.common-modal form .button {
+  margin: 10px 20px;
+}
+.common-modal form .button .button1 {
+  border: none;
+  text-align: center;
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  background: #FF5B5B;
+  font-size: 16px;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.common-modal-animation {
+  opacity: 1;
+  animation: modalAnimation 3s;
+  -webkit-animation: modalAnimation 3s;
+}
+.common-show {
+  position: fixed;
+  bottom: 20%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 35px;
+  background: #FF5B5B;
+  z-index: 10000;
+  display: none;
+  padding: 10px 0px;
+}
+.common-show .button1 {
+  border: none;
+  text-align: center;
+  background: #FF5B5B;
+  font-size: 18px;
+  font-family: MicrosoftYaHei-Bold;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 30px;
+  font-weight: bold;
+}
+@keyframes modalAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes modalAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

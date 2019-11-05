@@ -1,0 +1,146 @@
+.experts-main-type {
+    img {
+        width: 100%;
+        // height: 100%;
+    }
+
+    .experts-content-main-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: url("../../img/experts/bg.png");
+        background-size: 100% 100%;
+
+        // 整体内容样式
+        .experts-content-div {
+            margin: 46px 0;
+            letter-spacing: 1px;
+            text-align: center;
+
+            // 左侧整体内容样式
+            .experts-left-div {
+                width: 100%;
+                height: 100%;
+
+                // 左侧标题样式
+                .experts-left-title {
+                    padding: 12px 0;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #0C273C;
+                    background: #FF5B5B;
+                }
+
+                // 左侧内容样式
+                .experts-left-content {
+                    padding: 14px 14px 32px 14px;
+                    text-align: left;
+                    font-size: 14px;
+                    color: #FF5B5B;
+                    background: #0C273C;
+                }
+            }
+
+            // 右侧整体样式
+            .experts-right-div {
+                margin-bottom: 20px;
+
+                // 右侧主标题样式
+                .experts-right-title {
+                    padding: 12px 0;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #0C273C;
+                    background: #FF5B5B;
+
+                    span {
+                        margin-left: 16px;
+                        padding-left: 20px;
+                        border-left: 1px solid #0C273C;
+                        font-weight: normal;
+                    }
+                }
+
+                // 右侧图片样式
+                .experts-img-div {
+                    position: relative;
+                    padding: 14px;
+                    background-image: url("../../img/experts/cardBg.png");
+                    background-size: 100% 100%;
+                    height: 660px;
+                    overflow-x: hidden;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .experts-card-content {
+                        position: absolute;
+                        bottom: 0;
+                        width: 88%;
+                        background: #0C273C;
+
+                        .experts-card-name {
+                            margin: 8px 0 4px 0;
+                            font-size: 10px;
+                            color: #FF5B5B;
+                        }
+
+                        .experts-card-school {
+                            margin-bottom: 6px;
+                            font-size: 10px;
+                            color: #8D8A8C;
+                        }
+                    }
+                }
+
+                .experts-img-div::-webkit-scrollbar {
+                    background: rgba(125, 125, 125, 0.27);
+                    border-radius: 14px;
+                    box-shadow: 0px 2px 4px 0px rgba(12, 39, 60, 0.75), 0px 0px 3px 0px rgba(214, 217, 216, 0.08);
+                }
+
+                .experts-img-div::-webkit-scrollbar-thumb {
+                    background: rgba(255, 91, 91, 1);
+                    box-shadow: 0px 0px 2px 0px rgba(12, 39, 60, 0.75);
+                    border-radius: 14px;
+                }
+            }
+        }
+    }
+
+    .experts-modal-left-div {
+        height: 100%;
+        background: rgba(105, 114, 121, 1);
+        padding: 38px 30px;
+        color: rgba(12, 39, 60, 1);
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 32px;
+
+        .experts-modal-left-padding {
+            padding-bottom: 18px;
+        }
+    }
+
+    .experts-modal-right-div {
+        background: rgba(12, 39, 60, 1);
+        color: #FF5B5B;
+        padding: 30px 18px;
+        letter-spacing: 1px;
+
+        .experts-modal-right-padding {
+            padding-bottom: 18px;
+        }
+    }
+
+    .experts-modal-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: red;
+        z-index: 1;
+        font-size: 32px
+    }
+}

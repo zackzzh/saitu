@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="../css/ranking/ranking.less" />
+
+    <script src="../config/dots_sum.js"></script>
+    <script src="../config/head_import.js"></script>
+
+    <title>启尚-大学排名</title>
+</head>
+
+<body>
+    <div class="ranking-main-div">
+        <div class="ranking-head-div">
+            <img src="../img/ranking/headbg.png" />
+            <div class="ranking-head-text">
+                <div class="ranking-head-title">英国《卫报》2017年最新英国大学排名</div>
+                <div class="ranking-head-subtitle">筑梦英伦，你需要最全面的大学排名信息做指导！</div>
+                <div class="ranking-head-subtitle">50多个专业，逾百所英国大学，《卫报》以侧重就业的视角，带你详细品读各校短长！</div>
+            </div>
+        </div>
+        <div class="ranking-content-main-div container">
+            <div class="ranking-content-title">
+                大学综合排名变化
+            </div>
+            <div class="ranking-content-content">
+                英国《卫报》2016年最新英国大学排名现已发布。和去年相比，榜单中前三名岿然不动，分别为剑桥大学、牛津大学与圣安德鲁斯大学；萨里大学擢升两名来到第四，去年的第四名巴斯大学则小退一步成为第五；杜伦大学与华威大学并列第六，帝国理工退至第八；埃克赛特大学首度进入前十、名列第九，兰卡斯特大学则与去年持平，搭上了前十名的末班车；去年第七名的伦敦政经学院遗憾的跌出前十，与另一所伦敦名校伦敦大学学院（UCL）分别成为了13、12名。可以看出，传统院校虽占据主动，新兴院校的强劲势头也不容小觑。
+            </div>
+            <div class="ranking-content-content-link">
+                英国《卫报》2016年最新英国大学排名 完整名单
+            </div>
+            <div class="ranking-content-content">
+                《卫报》大学排名采用独特视角，更加侧重于就业角度，并主要依据在读生对大学各方面的评价综合而出，如：教学资源满意度、师生比例满意度、学生学习投入度、录取标
+                准、参考价值、就业率满意度、整体满意度等。《卫报》大学排名涵盖了50多个专业与百余所英国大学，是广大留学家庭亟需的择校指南。
+            </div>
+            <!-- 大学排名 -->
+            <div class="ranking-content-top20">
+                <div class="ranking-content-top20-title">2019年最新全球大学排名 TOP20</div>
+                <div class="ranking-content-top20-country">
+                    <div class="ranking-content-top20-country-title">
+                        <img src="../img/ranking/academy.png" />院校排名
+                    </div>
+                    <div class="row ranking-content-top20-countrys">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">中国</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">日本</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">荷兰</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">西班牙</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">芬兰</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">美国</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">英国</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">澳大利亚</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">葡萄牙</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">希腊</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">意大利</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">韩国</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">澳大利亚</div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">葡萄牙</div>
+                    </div>
+                </div>
+                <div class="row ranking-content-top20-ranking">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ranking-content-top20-ranking-item">
+                        <div style="text-align: left;">
+                            <div class="ranking-content-top20-ranking-title">院校</div>
+                            <div class="ranking-content-top20-ranking-content">剑桥大学</div>
+                            <div class="ranking-content-top20-ranking-content">牛津大学</div>
+                            <div class="ranking-content-top20-ranking-content">圣安德鲁斯大学</div>
+                            <div class="ranking-content-top20-ranking-content">萨里大学</div>
+                            <div class="ranking-content-top20-ranking-content">巴斯大学</div>
+                            <div class="ranking-content-top20-ranking-content">杜伦大学</div>
+                            <div class="ranking-content-top20-ranking-content">华威大学</div>
+                            <div class="ranking-content-top20-ranking-content">帝国理工学院</div>
+                            <div class="ranking-content-top20-ranking-content">埃克赛特大学</div>
+                            <div class="ranking-content-top20-ranking-content">兰卡斯特大学</div>
+                        </div>
+                        <div>
+                            <div class="ranking-content-top20-ranking-title">2018年排名</div>
+                            <div class="ranking-content-top20-ranking-content">1</div>
+                            <div class="ranking-content-top20-ranking-content">2</div>
+                            <div class="ranking-content-top20-ranking-content">3</div>
+                            <div class="ranking-content-top20-ranking-content">6</div>
+                            <div class="ranking-content-top20-ranking-content">4</div>
+                            <div class="ranking-content-top20-ranking-content">8</div>
+                            <div class="ranking-content-top20-ranking-content">9</div>
+                            <div class="ranking-content-top20-ranking-content">5</div>
+                            <div class="ranking-content-top20-ranking-content">12</div>
+                            <div class="ranking-content-top20-ranking-content">10</div>
+                        </div>
+                        <div>
+                            <div class="ranking-content-top20-ranking-title">2019年排名</div>
+                            <div class="ranking-content-top20-ranking-content">1</div>
+                            <div class="ranking-content-top20-ranking-content">2</div>
+                            <div class="ranking-content-top20-ranking-content">3</div>
+                            <div class="ranking-content-top20-ranking-content">4</div>
+                            <div class="ranking-content-top20-ranking-content">5</div>
+                            <div class="ranking-content-top20-ranking-content">6</div>
+                            <div class="ranking-content-top20-ranking-content">7</div>
+                            <div class="ranking-content-top20-ranking-content">8</div>
+                            <div class="ranking-content-top20-ranking-content">9</div>
+                            <div class="ranking-content-top20-ranking-content">10</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ranking-content-top20-ranking-item">
+                        <div style="text-align: left;">
+                            <div class="ranking-content-top20-ranking-title">院校</div>
+                            <div class="ranking-content-top20-ranking-content">拉夫堡大学</div>
+                            <div class="ranking-content-top20-ranking-content">伦敦大学学院</div>
+                            <div class="ranking-content-top20-ranking-content">伦敦政经学院</div>
+                            <div class="ranking-content-top20-ranking-content">南安普顿大学</div>
+                            <div class="ranking-content-top20-ranking-content">考文垂大学</div>
+                            <div class="ranking-content-top20-ranking-content">肯特大学</div>
+                            <div class="ranking-content-top20-ranking-content">伯明翰大学</div>
+                            <div class="ranking-content-top20-ranking-content">赫瑞瓦特大学</div>
+                            <div class="ranking-content-top20-ranking-content">苏赛克斯大学</div>
+                            <div class="ranking-content-top20-ranking-content">爱丁堡大学</div>
+                            <div class="ranking-content-top20-ranking-content">东英吉利大学</div>
+                        </div>
+                        <div>
+                            <div class="ranking-content-top20-ranking-title">2018年排名</div>
+                            <div class="ranking-content-top20-ranking-content">15</div>
+                            <div class="ranking-content-top20-ranking-content">11</div>
+                            <div class="ranking-content-top20-ranking-content">7</div>
+                            <div class="ranking-content-top20-ranking-content">19</div>
+                            <div class="ranking-content-top20-ranking-content">27</div>
+                            <div class="ranking-content-top20-ranking-content">20</div>
+                            <div class="ranking-content-top20-ranking-content">17</div>
+                            <div class="ranking-content-top20-ranking-content">13</div>
+                            <div class="ranking-content-top20-ranking-content">43</div>
+                            <div class="ranking-content-top20-ranking-content">18</div>
+                            <div class="ranking-content-top20-ranking-content">14</div>
+                        </div>
+                        <div>
+                            <div class="ranking-content-top20-ranking-title">2019年排名</div>
+                            <div class="ranking-content-top20-ranking-content">11</div>
+                            <div class="ranking-content-top20-ranking-content">12</div>
+                            <div class="ranking-content-top20-ranking-content">13</div>
+                            <div class="ranking-content-top20-ranking-content">14</div>
+                            <div class="ranking-content-top20-ranking-content">15</div>
+                            <div class="ranking-content-top20-ranking-content">16</div>
+                            <div class="ranking-content-top20-ranking-content">17</div>
+                            <div class="ranking-content-top20-ranking-content">18</div>
+                            <div class="ranking-content-top20-ranking-content">19</div>
+                            <div class="ranking-content-top20-ranking-content">20</div>
+                            <div class="ranking-content-top20-ranking-content">20</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 专业排名 -->
+            <div class="ranking-content-specialist">
+                <div class="ranking-content-specialist-title">英国《卫报》2016年最新英国大学排名 专业排名</div>
+                <img src="../img/ranking/a-e.png" />
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">A</div>
+                            <div class="ranking-content-specialist-item-content">会计与金融专业Accounting & Finance</div>
+                            <div class="ranking-content-specialist-item-content">农业、林业与食品Agriculture, Forestry and Food
+                            </div>
+                            <div class="ranking-content-specialist-item-content">美国研究American Studies</div>
+                            <div class="ranking-content-specialist-item-content">解剖学与生理学Anatomy & Physiology</div>
+                            <div class="ranking-content-specialist-item-content">人类学Anthropology</div>
+                            <div class="ranking-content-specialist-item-content">建筑学Architecture</div>
+                            <div class="ranking-content-specialist-item-content">艺术Art</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">B</div>
+                            <div class="ranking-content-specialist-item-content">生命科学Biosciences</div>
+                            <div class="ranking-content-specialist-item-content">建筑与城乡规划Building & Town & Country Planning
+                            </div>
+                            <div class="ranking-content-specialist-item-content">企业管理与市场营销Business & Management & Marketing
+                            </div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">C</div>
+                            <div class="ranking-content-specialist-item-content">化学Chemistry</div>
+                            <div class="ranking-content-specialist-item-content">古代史Classic & Anicent History</div>
+                            <div class="ranking-content-specialist-item-content">计算机Computer Science and IS</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">D</div>
+                            <div class="ranking-content-specialist-item-content">牙医Dentistry</div>
+                            <div class="ranking-content-specialist-item-content">设计与工艺Design & Crafts</div>
+                            <div class="ranking-content-specialist-item-content">戏剧与舞蹈Drama & Dance</div>
+                            <div class="ranking-content-specialist-item-content">地球与海洋科学Earth & Marine Science</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">E</div>
+                            <div class="ranking-content-specialist-item-content">经济学Economics</div>
+                            <div class="ranking-content-specialist-item-content">教育学Education</div>
+                            <div class="ranking-content-specialist-item-content">化学工程Engineering - Chemical</div>
+                            <div class="ranking-content-specialist-item-content">土木工程Engineering - Civil</div>
+                            <div class="ranking-content-specialist-item-content">能源与环境工程Engineering - Energy &
+                                Environmental
+                            </div>
+                            <div class="ranking-content-specialist-item-content">工程专业Engineering - General</div>
+                            <div class="ranking-content-specialist-item-content">材料工程Engineering - Materials & Mineral
+                            </div>
+                            <div class="ranking-content-specialist-item-content">机械工程Engineering - Mechanical</div>
+                            <div class="ranking-content-specialist-item-content">英文写作English & Creative Writing</div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark ranking-content-specialist-btn">
+                    我的专业在哪里？点此免费咨询专业排名
+                </button>
+                <img src="../img/ranking/f-m.png" />
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">F</div>
+                            <div class="ranking-content-specialist-item-content">时尚服装专业Fashion & Textiles</div>
+                            <div class="ranking-content-specialist-item-content">电影制作与摄影专业Film Production & Photography
+                            </div>
+                            <div class="ranking-content-specialist-item-content">法医与考古学Forensic Sci & Archaeology</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">G</div>
+                            <div class="ranking-content-specialist-item-content">地理与环境Geograpghy & Environmental</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">H</div>
+                            <div class="ranking-content-specialist-item-content">卫生Health Professions</div>
+                            <div class="ranking-content-specialist-item-content">历史History</div>
+                            <div class="ranking-content-specialist-item-content">艺术史History of Art</div>
+                            <div class="ranking-content-specialist-item-content">酒店、活动与旅游Hospitality & Event & Tourism</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">J</div>
+                            <div class="ranking-content-specialist-item-content">新闻出版与公关Journalism & Publishing & PR</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">L</div>
+                            <div class="ranking-content-specialist-item-content">法学Law</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">M</div>
+                            <div class="ranking-content-specialist-item-content">数学Mathematics</div>
+                            <div class="ranking-content-specialist-item-content">传媒与电影Media & Film</div>
+                            <div class="ranking-content-specialist-item-content">医学Medicine</div>
+                            <div class="ranking-content-specialist-item-content">语言学Modern Language & Linguistics</div>
+                            <div class="ranking-content-specialist-item-content">音乐Music</div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark ranking-content-specialist-btn">
+                    我的专业在哪里？点此免费咨询专业排名
+                </button>
+                <img src="../img/ranking/n-v.png" />
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">N</div>
+                            <div class="ranking-content-specialist-item-content">护理与助产Nursing & Widwifery</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">P</div>
+                            <div class="ranking-content-specialist-item-content">药学与药理学Pharmacy & Pharmacology</div>
+                            <div class="ranking-content-specialist-item-content">哲学Philosophy</div>
+                            <div class="ranking-content-specialist-item-content">物理学Physics</div>
+                            <div class="ranking-content-specialist-item-content">政治学Politics</div>
+                            <div class="ranking-content-specialist-item-content">心理学Psychology</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">R</div>
+                            <div class="ranking-content-specialist-item-content">宗教与神学Religious</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">S</div>
+                            <div class="ranking-content-specialist-item-content">社会政策与管理Social Policy & Administrations
+                            </div>
+                            <div class="ranking-content-specialist-item-content">社会服务工作Social Work</div>
+                            <div class="ranking-content-specialist-item-content">社会学Sociology</div>
+                            <div class="ranking-content-specialist-item-content">体育科学Sports Science</div>
+                        </div>
+                        <div class="ranking-content-specialist-item">
+                            <div class="ranking-content-specialist-item-title">V</div>
+                            <div class="ranking-content-specialist-item-content">兽医Veterinary Science</div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark ranking-content-specialist-btn">
+                    我的专业在哪里？点此免费咨询专业排名
+                </button>
+            </div>
+        </div>
+        <!-- 预约咨询 -->
+        <div class="ranking-advisory-div">
+            <div class="ranking-advisory-title">2019年申请拉开帷幕</div>
+            <div class="ranking-advisory-subtitle">dream school先到先得名额有限，行动宜早不宜迟！</div>
+            <div class="ranking-advisory-linediv"></div>
+            <div class="row ranking-advisory-form-div container">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 input-group input-group-sm ranking-advisory-input-group ranking-advisory-col">
+                    <div class="input-group-prepend ranking-advisory-icon">
+                        <img src="../img/ranking/person.png" />
+                        <div>姓名</div>
+                    </div>
+                    <input type="text" class="form-control ranking-advisory-input" aria-label="Small"
+                        aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 input-group input-group-sm ranking-advisory-input-group ranking-advisory-col">
+                    <div class="input-group-prepend ranking-advisory-icon">
+                        <img src="../img/ranking/mail.png" />
+                        <div>邮箱</div>
+                    </div>
+                    <input type="text" class="form-control ranking-advisory-input" aria-label="Small"
+                        aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 input-group input-group-sm ranking-advisory-input-group ranking-advisory-col">
+                    <div class="input-group-prepend ranking-advisory-icon">
+                        <img src="../img/ranking/phone.png" />
+                        <div>手机号</div>
+                    </div>
+                    <input type="text" class="form-control ranking-advisory-input" aria-label="Small"
+                        aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <button type="button" class="col-xl-1 col-lg-1 col-md-12 col-sm-12 btn ranking-advisory-btn ranking-advisory-col">立即预约</button>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 ranking-advisory-hotine ranking-advisory-col">
+                    <div class="ranking-advisory-hotine-title">咨询热线：</div>
+                    <div class="ranking-advisory-hotine-number">400 xxx xxx</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../config/body_import.js"></script>
+</body>
+
+</html>

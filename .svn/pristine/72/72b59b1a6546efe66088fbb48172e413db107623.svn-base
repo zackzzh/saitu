@@ -1,0 +1,83 @@
+<div class="common-head-main-div">
+    <!-- <img class="common-head-logo" src="" alt="logo.png" /> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="common-head-logo" src="" alt="logo.png" />
+                <div class="common-head-phone">
+                    <div class="common-head-phone-title">服务热线</div>
+                    <div class="common-head-phone-number">020-37889956</div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: flex-end">
+                <ul class="navbar-nav">
+                    <li id="index" class="nav-item">
+                        <a class="nav-link" href="#">首页<span class="sr-only">(home)</span></a>
+                    </li>
+                    <li id="about" class="nav-item">
+                        <a class="nav-link" href="#">关于赛图<span class="sr-only">(about)</span></a>
+                    </li>
+                    <li id="experts" class="nav-item">
+                        <a class="nav-link" href="#">师资力量<span class="sr-only">(experts)</span></a>
+                    </li>
+                    <li id="study-abroad" class="nav-item">
+                        <a class="nav-link" href="#">留学服务<span class="sr-only">(studyAbroad)</span></a>
+                    </li>
+                    <li id="course" class="nav-item">
+                        <a class="nav-link" href="#">课程简介<span class="sr-only">(course)</span></a>
+                    </li>
+                    <li id="study-tour" class="nav-item">
+                        <a class="nav-link"
+                            href="http://112.74.172.5:8088/qishang/study-abroad/study-abroad.html">游学服务</a>
+                    </li>
+                    <li id="news" class="nav-item">
+                        <a class="nav-link" href="#">赛图时讯<span class="sr-only">(news)</span></a>
+                    </li>
+                    <li id="join" class="nav-item">
+                        <a class="nav-link" href="#">加入我们<span class="sr-only">(join)</span></a>
+                    </li>
+                    <li id="material" class="nav-item">
+                        <a class="nav-link" href="#">资料下载<span class="sr-only">(material)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<script>
+    $(".common-head-logo").attr("src", dotsSum + "/img/head/logo.png");
+
+    var locationPath = window.location.pathname
+    var pathRegex1 = /\w+[-]*\w+.html$/
+    var locationRegex = locationPath.match(pathRegex1)
+    if (locationRegex) {
+        var pathRegex2 = /^\w+[-]*\w+/
+        var pathId = locationRegex[0].match(pathRegex2)
+        console.log("locationPath", pathId);
+        if (pathId) {
+            var itemId = "#" + pathId[0]
+            // active
+            $(itemId).addClass("active");
+        }
+    }
+
+    $("a").click(function () {
+        var textData = $(this).text(); // 用$(this)
+        var aRegex = /(\w+)/
+        var textRegex = textData.match(aRegex)
+        if (textRegex) {
+            var pathName = textRegex[0]
+            if (pathName === "home") {
+                pathName = "/"
+            }
+            $go({
+                path: pathName
+            })
+        }
+    });
+
+</script>

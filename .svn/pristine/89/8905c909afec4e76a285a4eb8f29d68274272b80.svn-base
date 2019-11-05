@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="../css/join/join.less" />
+
+    <script src="../config/dots_sum.js"></script>
+    <script src="../config/head_import.js"></script>
+    <title>赛图-加入我们</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+    <div class="join-main-div">
+        <img class="join-headbg" src="../img/join/headbg.png" alt="headbg.png" />
+        <div class="container">
+            <div class="join-joinus-div">
+                <div class="join-joinus-title">加入我们</div>
+                <div class="join-joinus-content">
+                    经过多年的努力，我公司拥有一支强有力的销售团体及技术服务团队，本着与各商家团结、合作、开拓、发展的态度，注重信誉，强调服务，以忘我的敬业精神和精湛的技术为用户提供服务，致力成为国内微小企业及创业商户的移动支付专家。
+                </div>
+            </div>
+            <div class="join-teacher-div">
+                <div class="join-teacher-title">出国留学类语言培训教师</div>
+                <div class="row join-teacher-card-div">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="join-teacher-card">
+                            <img class="join-teacher-card-img" src="../img/join/1.png" />
+                            <div class="join-teacher-card-text">
+                                <div class="join-teacher-card-title">托福</div>
+                                <div class="join-teacher-card-content">
+                                    市场部是一个企业中营销组织架构的重要组成部分。团队负责拉近产品与消费者的心理距离，建立和完善营销信息收集、处理、交流及保密系统。与客户沟通并拉近客户距离，了解客户内心满意的产品。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="join-teacher-card">
+                            <img class="join-teacher-card-img" src="../img/join/2.png" />
+                            <div class="join-teacher-card-text">
+                                <div class="join-teacher-card-title">雅思</div>
+                                <div class="join-teacher-card-content">
+                                    专业设计团队 , 量身定制设计方案 , 多年行业经验 , 品牌一站式打造
+                                    ，解决客户当下之忧，协助公司各类宣传策划方案的设计和撰写，负责宣传推广文案及宣传资料文案的撰写，为客户打造完美方案。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="join-teacher-card">
+                            <img class="join-teacher-card-img" src="../img/join/3.png" />
+                            <div class="join-teacher-card-text">
+                                <div class="join-teacher-card-title">SAT</div>
+                                <div class="join-teacher-card-content">
+                                    公司核心主力部门，负责开发相关软件，根据用户需求增加产品功能，优化产品，按照详细的设计，完成关键性的代码设计、代码编写，对交接项目产品进行调试及测试；以及后期的维护与技术咨询。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="join-teacher-card">
+                            <img class="join-teacher-card-img" src="../img/join/4.png" />
+                            <div class="join-teacher-card-text">
+                                <div class="join-teacher-card-title">GRE</div>
+                                <div class="join-teacher-card-content">
+                                    配合前端、设计、开发和建设项目，根据用户需求优化网页后台程序，或更换相关信息内容，做到及时更改，以客户的需求为最终优化方案，定期维护网站程序，处理反馈回来的系统问题，提高用户体验。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="join-teacher-card">
+                            <img class="join-teacher-card-img" src="../img/join/5.png" />
+                            <div class="join-teacher-card-text">
+                                <div class="join-teacher-card-title">GMAT</div>
+                                <div class="join-teacher-card-content">
+                                    接手设计方案后，完成客户端程序（也就是浏览器端）的开发，开发JavaScript以及Flash模块，同时结合后台开发技术模拟整体效果，进行丰富互联网的Web开发，致力于通过技术改善用户体验。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="join-teacher-card">
+                            <img class="join-teacher-card-img" src="../img/join/6.png" />
+                            <div class="join-teacher-card-text">
+                                <div class="join-teacher-card-title">SSAT强化</div>
+                                <div class="join-teacher-card-content">
+                                    接手设计方案后，完成客户端程序（也就是浏览器端）的开发，开发JavaScript以及Flash模块，同时结合后台开发技术模拟整体效果，进行丰富互联网的Web开发，致力于通过技术改善用户体验。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row join-card-div">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <img src="../img/join/01.png" />
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="join-card-idea-div">
+                        <div class="join-card-idea">
+                            <div class="join-card-idea-title">公司理念</div>
+                            <div class="join-card-idea-content">
+                                诚信合作，成人达己，诚人之本，信誉之名，诚信你我，携手展望未来宏图。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <img src="../img/join/02.png" />
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="join-card-idea-div">
+                        <div class="join-card-idea">
+                            <div class="join-card-idea-title">价值观</div>
+                            <div class="join-card-idea-content">
+                                诚信、协作、创新、卓越，正直、尊重平等，积极乐观，待人以诚。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <img src="../img/join/03.png" />
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="join-card-idea-div">
+                        <div class="join-card-idea">
+                            <div class="join-card-idea-title">公司使命</div>
+                            <div class="join-card-idea-content">
+                                助力每一位合作伙伴持续创造价值，实现自我梦想，通过互联网服务引领行业技术的发展。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="../config/body_import.js"></script>
+</body>
+
+</html>

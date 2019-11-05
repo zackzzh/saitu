@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/course.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <title>课程介绍详情</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+    <div class="page-course">
+        <div class="banner">
+            <img src="./img/course/banner.png" alt="">
+            <div class="add-us">立即开启</div>
+        </div>
+        <div class="container">
+            <div class="index-t">
+                <div>课程介绍</div>
+                <div>COURSE INTRODUCTION</div>
+            </div>
+            <div>
+                <table class="table wow fadeIn" data-wow-duration="2s">
+                    <thead>
+                        <tr class="course-thead">
+                            <th class="thead-one">
+                                <div class="dropdown">
+                                    <div id="dropdownMenuButton" class="btn btn-detault dropdown-toggle" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        课程类型：全部
+                                    </div>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">雅思IELES</a>
+                                        <a class="dropdown-item" href="#">托福TOEFL</a>
+                                        <a class="dropdown-item" href="#">TOEFL JUNIOR</a>
+                                        <a class="dropdown-item" href="#">SAT/ACT</a>
+                                    </div>
+                                </div>
+                            </th>
+                            <th class="thead-three">课程名称</th>
+                            <th class="thead-three">班型</th>
+                            <th class="thead-three">课时</th>
+                            <th class="thead-two">适用学生</th>
+                            <th class="thead-three">价格</th>
+                            <th class="thead-three"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="course-body">
+                        <tr>
+                            <td class="thead-one">
+                                <img src="./img/course/c1.png" alt="">
+                            </td>
+                            <td class="thead-three">
+                                SAT预备段课程
+                            </td>
+                            <td class="thead-three">
+                                1V3，1V6
+                            </td>
+                            <td class="thead-three">
+                                75课时
+                            </td>
+                            <td class="thead-two">
+                                基础段课程结束或者顶级测试正确率在75%以上者
+                            </td>
+                            <td class="thead-three">
+                                200元/课时
+                            </td>
+                            <td class="thead-three">
+                                <span class="right-item">课程详情</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script>
+        new WOW().init();
+        $('.right-item').click(function () {
+            $go({
+                path: 'courseDetail'
+            })
+        })
+    </script>
+</body>
+
+</html>

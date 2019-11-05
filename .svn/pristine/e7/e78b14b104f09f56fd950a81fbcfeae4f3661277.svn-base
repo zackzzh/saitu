@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/course.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <title>课程介绍</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+    <div class="page-course">
+        <div class="banner">
+            <img src="./img/course/banner.png" alt="">
+            <div class="add-us">立即开启</div>
+        </div>
+        <div class="container">
+            <div class="index-t">
+                <div>课程介绍</div>
+                <div>COURSE INTRODUCTION</div>
+            </div>
+            <div class="main d-flex flex-wrap">
+                <div class="right-item col-xl-3 col-md-4 col-sm-12">
+                    <img src="./img/course/c1.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">雅思</div>
+                        <div class="content">
+                            在128公路兴起和发展的大半个世纪中，其周边的麻省理工学院、哈佛大学和波士顿大学等著名学府扮演了极其重要的角色。其中由麻省理工学院毕业生们创办的公司就占到了70%。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-3 col-md-4 col-sm-12">
+                    <img src="./img/course/c2.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">托福</div>
+                        <div class="content">
+                            在128公路兴起和发展的大半个世纪中，其周边的麻省理工学院、哈佛大学和波士顿大学等著名学府扮演了极其重要的角色。其中由麻省理工学院毕业生们创办的公司就占到了70%。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-3 col-md-4 col-sm-12">
+                    <img src="./img/course/c3.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">
+                            TOEFL JUNIOR
+                        </div>
+                        <div class="content">
+                            在128公路兴起和发展的大半个世纪中，其周边的麻省理工学院、哈佛大学和波士顿大学等著名学府扮演了极其重要的角色。其中由麻省理工学院毕业生们创办的公司就占到了70%。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-3 col-md-4 col-sm-12">
+                    <img src="./img/course/c4.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">
+                            SAT/ACT
+                        </div>
+                        <div class="content">
+                            在128公路兴起和发展的大半个世纪中，其周边的麻省理工学院、哈佛大学和波士顿大学等著名学府扮演了极其重要的角色。其中由麻省理工学院毕业生们创办的公司就占到了70%。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-3 col-md-4 col-sm-12">
+                    <img src="./img/course/c5.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">
+                            SSAT
+                        </div>
+                        <div class="content">
+                            在128公路兴起和发展的大半个世纪中，其周边的麻省理工学院、哈佛大学和波士顿大学等著名学府扮演了极其重要的角色。其中由麻省理工学院毕业生们创办的公司就占到了70%。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-3 col-md-4 col-sm-12">
+                    <img src="./img/course/c6.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">
+                            GMAT/GRE
+                        </div>
+                        <div class="content">
+                            在128公路兴起和发展的大半个世纪中，其周边的麻省理工学院、哈佛大学和波士顿大学等著名学府扮演了极其重要的角色。其中由麻省理工学院毕业生们创办的公司就占到了70%。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-3 col-md-4 col-sm-12">
+                    <img src="./img/course/c7.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">
+                            新概念英语
+                        </div>
+                        <div class="content">
+                            在128公路兴起和发展的大半个世纪中，其周边的麻省理工学院、哈佛大学和波士顿大学等著名学府扮演了极其重要的角色。其中由麻省理工学院毕业生们创办的公司就占到了70%。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-3 col-md-4 col-sm-12">
+                    <img src="./img/course/c8.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">
+                            AP学科课程
+                        </div>
+                        <div class="content">
+                            在128公路兴起和发展的大半个世纪中，其周边的麻省理工学院、哈佛大学和波士顿大学等著名学府扮演了极其重要的角色。其中由麻省理工学院毕业生们创办的公司就占到了70%。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script>
+        $('.right-item').click(function () {
+            $go({
+                path: 'courseDetail'
+            })
+        })
+    </script>
+</body>
+
+</html>

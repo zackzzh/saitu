@@ -1,0 +1,214 @@
+.page-material-detail {
+    background-image : url('../img/bg.png');
+    background-repeat: no-repeat;
+    padding-bottom   : 120px;
+
+    .banner {
+        width   : 100%;
+        position: relative;
+        z-index : 10;
+
+        img {
+            width   : 100%;
+            position: relative;
+            z-index : 10;
+        }
+
+        .add-us {
+            cursor     : pointer;
+            position   : absolute;
+            width      : 214px;
+            height     : 68px;
+            line-height: 68px;
+            background : transparent;
+            border     : 1px solid #fff;
+            font-size  : 32px;
+            color      : #fff;
+            top        : 60%;
+            left       : 50%;
+            text-align : center;
+            transform  : translateX(-50%);
+            z-index    : 100;
+        }
+    }
+
+    .search {
+        width     : 100%;
+        height    : 110px;
+        font-size : 26px;
+        background: #fff;
+        position  : relative;
+        top       : -55px;
+        z-index   : 12;
+
+        .search-one {
+            cursor      : pointer;
+            width       : 20%;
+            height      : 110px;
+            color       : #0C273C;
+            border-right: 1px solid #e5e5e5;
+
+            img {
+                margin: 0px 10%;
+                width : 30px;
+                height: 30px;
+            }
+        }
+
+        .search-two {
+            height: 110px;
+            width : 49%;
+
+            input {
+                width      : 100%;
+                height     : 110px;
+                line-height: 110px;
+                border     : none;
+            }
+
+            img {
+                cursor     : pointer;
+                right      : 15%;
+                position   : absolute;
+                flex-shrink: 0;
+                width      : 30px;
+                height     : 30px;
+            }
+        }
+
+        .search-three {
+            cursor     : pointer;
+            color      : #fff;
+            background : #0C273C;
+            width      : 12%;
+            height     : 110px;
+            line-height: 110px;
+            text-align : center;
+        }
+
+    }
+
+    // 公共title
+    .index-t {
+        color        : #0C273C;
+        width        : 278px;
+        padding-top  : 40px;
+        margin-bottom: 36px;
+
+        div:nth-child(1) {
+            font-size: 32px;
+        }
+
+        div:nth-child(2) {
+            font-size : 26px;
+            position  : relative;
+            display   : inline-block;
+            margin-top: 10px;
+
+            &::after {
+                position: absolute;
+                top     : -5px;
+                right   : 0;
+                content : "";
+                width   : 100%;
+                height  : 0;
+                border  : 2px solid #0C273C;
+            }
+        }
+    }
+
+    .main {
+        .main-left {
+            background: #0C273C;
+            padding   : 0;
+
+            .left-item {
+                text-indent: 20px;
+                height     : 44px;
+                line-height: 44px;
+                font-size  : 28px;
+                color      : #FF5B5B;
+            }
+
+            .active {
+                color     : #0C273C;
+                background: #FF5B5B;
+            }
+        }
+
+        .main-right {
+            color       : #0C273C;
+            padding-left: 40px;
+
+            .right-title {
+                width        : 100%;
+                text-align   : center;
+                font-size    : 36px;
+                margin-bottom: 32px;
+            }
+
+            .right-auth {
+                font-size    : 18px;
+                margin-bottom: 50px;
+                text-align   : center;
+            }
+
+            .right-content {
+                font-size    : 24px;
+                margin-bottom: 50px;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .main-left {
+        .left-item {
+            font-size: 20px !important;
+        }
+    }
+
+    .search {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .add-us {
+        width      : 80px !important;
+        height     : 30px !important;
+        line-height: 30px !important;
+        font-size  : 16px !important;
+    }
+
+    .search {
+        font-size: 12px !important;
+        height   : 40px !important;
+        top      : -20px !important;
+
+        input {
+            height: 40px !important;
+        }
+
+        .search-three {
+            height     : 40px !important;
+            line-height: 40px !important;
+            width      : 20% !important;
+        }
+
+        .search-one {
+            width : 28% !important;
+            height: 40px !important;
+        }
+
+        img {
+            margin: 0 5px !important;
+            width : 15px !important;
+            height: 15px !important;
+        }
+    }
+}

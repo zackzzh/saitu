@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/news-detail.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <title>启尚时讯</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+    <div class="page-news-detail">
+        <div class="container">
+            <div class="news-content">
+                <div class="content-mid p-4 row">
+                    <div class="mid-left col-xl-9 col-md-8 col-sm-12">
+                        <div class="left-top">
+                            <div class="title">
+                                艺术学校2016年新生报到时间和地点
+                            </div>
+                            <div class="time">
+                                <span>发布日期：2016-11-24</span> <span>点击：100</span>
+                            </div>
+                        </div>
+                        <div class="left-content">
+                            省部共建大学是指国务院相关部委（教育部及其他国家部委）与相关省、直辖市、自治区共建高校。主要为四类：
+                            <p>
+                                一是教育部与地方政府对985工程大学进行共建，以建设国内一流、国际知名的高水平大学，中央部委拉动地方政府配套支持相关高校发展的规划。
+                            </p>
+                            <p>
+                                二是各行业领域具有高水平的部分行业特色型国家211工程大学，得到教育部、各行业部门对这些重点行业特色型大学进行共建。共建工作旨在指导这些特色高校扩大社会合作、强化社会服务，构建共建各方更稳固、持久的合作关系，发挥共建工作在高水平大学建设中的重要作用。
+                            </p>
+                            <p>
+                                三是部分实力较强的省属大学，得到地方政府与教育部以及其他部委共建，拓展发展经费和资源，建设在全国范围内综合实力强、办学水平高，在全国有一定影响力的高水平大学。教育部为此设立教育部省部共建工作研究中心由教育部直属高校工作办公室直接领导，立足于省部共建。此外，教育部还吸纳这部分高校参加教育部直属高校的部分会议。
+                            </p>
+                            <p>
+                                四是地方政府与教育部之外的其他国家部委重点共建的省属重点大学。这些高校在某一或多个行业领域有较强的师资和科研基础，各部委加强对这些高校的支持力度，由各部委与地方省市签署省部共建协议，积极发展强势学科，提高综合实力，建设一批行业内具有巨大影响力的高水平大学。
+                            </p>
+                            <p>
+                                一是教育部与地方政府对985工程大学进行共建，以建设国内一流、国际知名的高水平大学，中央部委拉动地方政府配套支持相关高校发展的规划。
+                            </p>
+                            <p>
+                                二是各行业领域具有高水平的部分行业特色型国家211工程大学，得到教育部、各行业部门对这些重点行业特色型大学进行共建。共建工作旨在指导这些特色高校扩大社会合作、强化社会服务，构建共建各方更稳固、持久的合作关系，发挥共建工作在高水平大学建设中的重要作用。
+                            </p>
+                            <p>
+                                三是部分实力较强的省属大学，得到地方政府与教育部以及其他部委共建，拓展发展经费和资源，建设在全国范围内综合实力强、办学水平高，在全国有一定影响力的高水平大学。教育部为此设立教育部省部共建工作研究中心由教育部直属高校工作办公室直接领导，立足于省部共建。此外，教育部还吸纳这部分高校参加教育部直属高校的部分会议。
+                            </p>
+                            <p>
+                                四是地方政府与教育部之外的其他国家部委重点共建的省属重点大学。这些高校在某一或多个行业领域有较强的师资和科研基础，各部委加强对这些高校的支持力度，由各部委与地方省市签署省部共建协议，积极发展强势学科，提高综合实力，建设一批行业内具有巨大影响力的高水平大学。
+                            </p>
+                        </div>
+                        <div class="left-bottom">
+                            <div class="bottom-item">
+                                <img src="./img/details/d1.png" alt="">
+                                上一篇：深圳艺术学院设计2015考生须知
+                            </div>
+                            <div class="bottom-item">
+                                <img src="./img/details/d1.png" alt="">
+                                上一篇：深圳艺术学院设计2015考生须知
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mid-right col-xl-3 col-md-4 col-sm-12">
+                        <div class="right-one">
+                            <div class="right-title">
+                                热门专业
+                            </div>
+                            <div class="one-list">
+                                <div class="one-item">
+                                    01.动画设计
+                                </div>
+                                <div class="one-item">
+                                    02.动画设计
+                                </div>
+                                <div class="one-item">
+                                    03.动画设计
+                                </div>
+                                <div class="one-item">
+                                    04.动画设计
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-two">
+                            <div class="right-title">
+                                师资力量
+                            </div>
+                            <div class="two-list">
+                                <div class="d-flex align-items-center two-item">
+                                    <div class="item-left col-6">
+                                        <img src="./img/details/d2.png" alt="">
+                                    </div>
+                                    <div class="item-right col-6">
+                                        <div class="name">甲由老师</div>
+                                        <div>
+                                            深圳艺术学校教授，四川音乐学院钢琴艺术研究院院长，获国务院特殊津贴。
+                                            从事钢琴教学四十多年，培养了不少优秀钢琴演奏...人才。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center two-item">
+                                    <div class="item-left col-6">
+                                        <img src="./img/details/d3.png" alt="">
+                                    </div>
+                                    <div class="item-right col-6">
+                                        <div class="name">甲由老师</div>
+                                        <div>
+                                            深圳艺术学校教授，四川音乐学院钢琴艺术研究院院长，获国务院特殊津贴。
+                                            从事钢琴教学四十多年，培养了不少优秀钢琴演奏...人才。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center two-item">
+                                    <div class="item-left col-6">
+                                        <img src="./img/details/d4.png" alt="">
+                                    </div>
+                                    <div class="item-right col-6">
+                                        <div class="name">甲由老师</div>
+                                        <div>
+                                            深圳艺术学校教授，四川音乐学院钢琴艺术研究院院长，获国务院特殊津贴。
+                                            从事钢琴教学四十多年，培养了不少优秀钢琴演奏...人才。
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-three">
+                            <div class="right-title">
+                                联系我们
+                            </div>
+                            <div class="d-flex align-items-center two-item">
+                                <div class="item-left col-4">
+                                    <img src="./img/details/phone.png" alt="">
+                                </div>
+                                <div class="item-right col-8">
+                                    <div class="name">全国服务热线</div>
+                                    <div>
+                                        4000-000-0000
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+</body>
+
+</html>

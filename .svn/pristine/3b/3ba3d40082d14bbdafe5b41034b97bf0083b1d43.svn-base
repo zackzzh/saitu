@@ -1,0 +1,56 @@
+<div class="common-head-main-div">
+    <img class="common-head-logo" src="" alt="logo.png" />
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: center">
+            <!-- <div style="color:#ffffff">home</div> -->
+            <ul class="navbar-nav">
+                <li class="nav-item" active>
+                    <a class="nav-link" href="#">首页<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">师资力量<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">课程简介<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">留学服务<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">游学服务<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">赛图时讯<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">加入我们<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">关于赛图<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">资料下载<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    // $(function () {
+    //     $(".dropdown").mouseover(function () {
+    //         $(this).addClass("show");
+    //         $(".dropdown-menu").addClass("show");
+    //         $(".dropdown-toggle").attr("aria-expanded", "true");
+    //     });
+    //     $(".dropdown").mouseleave(function () {
+    //         $(this).removeClass("show");
+    //         $(".dropdown-menu").removeClass("show");
+    //         $(".dropdown-toggle").attr("aria-expanded", "false");
+    //     })
+    // })
+    $(".common-head-logo").attr("src", dotsSum + "/img/head/logo.png")
+</script>

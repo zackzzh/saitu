@@ -1,0 +1,20 @@
+$(function () {
+    $(".one-right .item").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+    $(".one-right1 .item").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+    $(".team1").mouseenter(function () {
+        console.log(111);
+        $(this).addClass("active1");
+    })
+    $(".team1").mouseleave(function () {
+        $(this).removeClass("active1")
+    })
+    $('.team1 .detail').click(function () {
+        $go({
+            path: 'casesDetail'
+        })
+    })
+});  

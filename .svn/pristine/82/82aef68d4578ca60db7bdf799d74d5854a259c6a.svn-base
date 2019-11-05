@@ -1,0 +1,329 @@
+.cases {
+    background-image : url('../img/bg.png');
+    background-repeat: no-repeat;
+    padding-bottom   : 120px;
+
+    // 公共title
+    .index-t {
+        color        : #0C273C;
+        width        : 278px;
+        padding-top  : 92px;
+        margin-bottom: 36px;
+
+        div:nth-child(1) {
+            font-size: 32px;
+        }
+
+        div:nth-child(2) {
+            font-size : 26px;
+            position  : relative;
+            display   : inline-block;
+            margin-top: 10px;
+
+            &::after {
+                position: absolute;
+                top     : -5px;
+                right   : 0;
+                content : "";
+                width   : 100%;
+                height  : 0;
+                border  : 2px solid #0C273C;
+            }
+        }
+    }
+
+
+
+    //录取榜
+    .cases {
+        .cases-bg {
+            background-image : url('../img/index/lbg.png');
+            background-repeat: no-repeat;
+            background-size  : 100% 100%;
+            padding          : 30px;
+
+            .bg-top {
+                width        : 100%;
+                text-align   : center;
+                color        : #EB6D6E;
+                font-size    : 22px;
+                position     : relative;
+                margin-bottom: 20px;
+
+                .top-title {
+                    font-size: 36px;
+                }
+
+                .top-line {
+                    width        : 10px;
+                    height       : 10px;
+                    border-radius: 50%;
+                    background   : #EB6D6E;
+                    margin       : 15px auto;
+                    position     : relative;
+
+                    &::after {
+                        position: absolute;
+                        top     : 3px;
+                        left    : 40px;
+                        content : "";
+                        width   : 1000%;
+                        height  : 0;
+                        border  : 1px solid #EB6D6E;
+                    }
+
+                    &::before {
+                        right   : 40px;
+                        position: absolute;
+                        top     : 3px;
+                        content : "";
+                        width   : 1000%;
+                        height  : 0;
+                        border  : 1px solid #EB6D6E;
+                    }
+                }
+            }
+
+            .cases-item {
+                // background   : #ADB7BE;
+                color           : #1C3649;
+                font-size       : 16px;
+                height          : 78px;
+                position        : relative;
+                margin-bottom   : 10px;
+                box-sizing      : border-box;
+
+                .item-one {
+                    background: #ADB7BE;
+                    width     : 100%;
+                }
+
+                .img {
+                    width      : 40%;
+                    height     : 78px;
+                    position   : relative;
+                    flex-shrink: 0;
+
+                    img {
+                        width       : 100%;
+                        padding-left: 10px;
+                        position    : absolute;
+                        top         : 50%;
+                        transform   : translateY(-50%);
+                        margin      : auto;
+                        height      : 55px;
+                    }
+                }
+
+
+
+                // padding-right: 0px !important;
+                .casae-title {
+                    width     : 100%;
+                    font-size : 12px;
+                    height    : 78px;
+                    text-align: center;
+                }
+
+                .cases-number {
+                    background : #AF9786;
+                    color      : #fff;
+                    height     : 78px;
+                    width      : 60px;
+                    text-align : center;
+                    line-height: 78px;
+                }
+            }
+        }
+
+        .more {
+            width      : 110px;
+            height     : 30px;
+            background : #EB6D6E;
+            text-align : center;
+            line-height: 30px;
+            font-size  : 14px;
+            color      : #fff;
+            margin     : 0px auto;
+            margin-top : 20px;
+        }
+    }
+
+    // 选择
+    .select {
+        margin-top: 80px;
+
+        .select-one {
+            width        : 100%;
+            font-size    : 14px;
+            color        : #0C273C;
+            margin-bottom: 40px;
+
+            .one-left {
+                font-size  : 18px;
+                min-width  : 120px;
+                font-size  : 18px;
+                display    : flex;
+                align-items: center;
+
+                img {
+                    margin-right: 5px;
+                }
+            }
+
+            ::-webkit-scrollbar-track-piece {
+                //滚动条凹槽的颜色，还可以设置边框属性
+                background-color: #f8f8f8;
+            }
+
+            ::-webkit-scrollbar {
+                //滚动条的宽度
+                width : 5px;
+                height: 5px;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                //滚动条的设置
+                background-color: #dddddd;
+                background-clip : padding-box;
+                min-height      : 28px;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: #bbb;
+            }
+
+            .one-right1 {
+                width     : 90%;
+                overflow-x: auto;
+
+                .item {
+                    padding    : 5px 20px;
+                    flex-shrink: 0;
+                    cursor     : pointer;
+                }
+
+                .active {
+                    padding      : 5px 20px;
+                    background   : #0C273C;
+                    color        : #FF5B5B;
+                    border-radius: 25px;
+                }
+            }
+
+            .one-right {
+                width     : 90%;
+                overflow-x: auto;
+
+                .item {
+                    padding    : 5px 20px;
+                    flex-shrink: 0;
+                    cursor     : pointer;
+                }
+
+                .active {
+                    padding      : 5px 20px;
+                    background   : #0C273C;
+                    color        : #FF5B5B;
+                    border-radius: 25px;
+                }
+            }
+        }
+
+        .team-item {
+            margin-bottom: 10px;
+            cursor       : pointer;
+
+            .img {
+                width: 100%;
+            }
+
+            .bottom {
+                padding   : 10px 25px;
+                background: #07273D;
+                color     : #fff;
+
+                .team-name {
+                    font-size     : 18px;
+                    border-bottom : 1px solid #4E616F;
+                    padding-bottom: 10px;
+
+                    img {
+                        width       : 20px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .team-line {
+                    font-size         : 14px;
+                    margin-bottom     : 20px;
+                    margin-top        : 10px;
+                    display           : -webkit-box;
+                    -webkit-box-orient: vertical;
+                    overflow          : hidden;
+                    text-overflow     : ellipsis;
+                    -webkit-line-clamp: 4;
+                    -webkit-box-orient: vertical;
+                }
+
+                .button {
+                    button {
+                        cursor: pointer;
+                        height       : 40px;
+                        line-height  : 30px;
+                        color        : #fff;
+                        border       : 1px solid #fff;
+                        border-radius: 25px;
+                        background   : transparent;
+                        font-size    : 18px;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .active1 {
+        .bottom {
+            color: #FF5B5B !important;
+
+            button {
+                color: #FF5B5B !important;
+            }
+        }
+
+    }
+}
+
+// @media screen and (min-width: 768px) and (max-width: 992px) {
+//     .team-name {
+//         font-size: 1px !important;
+//     }
+
+//     .button {
+//         button {
+//             font-size: 14px !important;
+//         }
+//     }
+// }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .cases-bg {
+        padding: 10px !important;
+
+        .casae-title {
+            font-size: 12px !important;
+        }
+    }
+
+    .team-name {
+        font-size: 16px !important;
+    }
+
+    .button {
+        button {
+            font-size: 14px !important;
+        }
+    }
+}

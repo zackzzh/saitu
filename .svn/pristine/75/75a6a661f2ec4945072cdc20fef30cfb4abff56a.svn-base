@@ -1,0 +1,501 @@
+.index {
+    width: 100%;
+    overflow-x: hidden;
+    background: #E9EBEB;
+    padding-bottom: 120px;
+
+    .index-head-div {
+        position: relative;
+        margin: 0 0 -22px 0;
+        color: #FFFFFF;
+
+        .index-head-banner {
+            width: 100%;
+            height: auto;
+        }
+
+        .index-head-text {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 50%; //水平居中
+            height: 30%;
+            margin: auto;
+            text-align: center;
+            letter-spacing: 4px;
+
+            .index-head-title {
+                font-size: 46px;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+
+            .index-head-subtitle {
+                font-size: 30px;
+            }
+
+            .index-head-join {
+                cursor: pointer;
+                margin-top: 30px;
+                height: 56px;
+            }
+        }
+    }
+
+    // 轮播
+    .swiper-container {
+        img {
+            width: 100%;
+        }
+    }
+
+    //留学
+    .liuxue {
+        .liuxue-left {
+            // width     : 56%;
+            margin-bottom: 10px;
+
+            img {
+                margin-bottom: 14px;
+                width: 100%
+            }
+
+            img:last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+        .liuxue-right {
+            // width   : 44%;
+            position: relative;
+            z-index: 1;
+            margin-bottom: 10px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .liuxue-content {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                text-align: center;
+                transform: translateX(-50%);
+                z-index: 100;
+                color: #0C0C0C;
+                box-sizing: border-box;
+                width: 94%;
+                padding: 10px 34px;
+                background: rgba(255, 255, 255, 0.5);
+
+                .content-one {
+                    font-size: 28px;
+                    font-weight: bold;
+                    // border-bottom: 1px solid #0C0C0C;
+                }
+
+                .content-line {
+                    margin: 6px auto;
+                    width: 100px;
+                    height: 1px;
+                    background: #0C0C0C;
+                }
+
+                .content-two {
+                    font-size: 20px;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    -webkit-line-clamp: 4;
+                    -webkit-box-orient: vertical;
+
+                }
+            }
+        }
+    }
+
+    // 公共title
+    .index-t {
+        color: #0C273C;
+        // width: 278px;
+        padding-top: 92px;
+        margin: 0 auto 36px auto;
+        text-align: center;
+        color: #FF5B5B;
+        // margin-bottom: 36px;
+
+        div:nth-child(1) {
+            font-size: 32px;
+        }
+
+        div:nth-child(2) {
+            font-size: 26px;
+            position: relative;
+            display: inline-block;
+            margin-top: 10px;
+
+            &::after {
+                position: absolute;
+                top: -5px;
+                right: 0;
+                content: "";
+                width: 100%;
+                height: 0;
+                border: 2px solid #728585;
+            }
+        }
+    }
+
+    //团队
+    .team {
+        cursor: pointer;
+
+        img {
+            width: 100%;
+        }
+
+        color:#0C273C;
+
+        .team-name {
+            font-size: 22px;
+        }
+
+        .team-line {
+            width: 80%;
+            margin: 5px 0;
+            height: 1px;
+            background: #000;
+        }
+
+        .team-school {
+            font-size: 16px;
+            color: #344554;
+        }
+
+        .team-techol {
+            font-size: 16px;
+            color: #414F5C;
+        }
+    }
+
+    //录取榜
+    .cases {
+        .cases-bg {
+            background-image: url('../img/index/lbg.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 30px;
+
+            .bg-top {
+                width: 100%;
+                text-align: center;
+                color: #EB6D6E;
+                font-size: 22px;
+                position: relative;
+                margin-bottom: 20px;
+
+                .top-title {
+                    font-size: 36px;
+                }
+
+                .top-line {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background: #EB6D6E;
+                    margin: 15px auto;
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        top: 3px;
+                        left: 40px;
+                        content: "";
+                        width: 1000%;
+                        height: 0;
+                        border: 1px solid #EB6D6E;
+                    }
+
+                    &::before {
+                        right: 40px;
+                        position: absolute;
+                        top: 3px;
+                        content: "";
+                        width: 1000%;
+                        height: 0;
+                        border: 1px solid #EB6D6E;
+                    }
+                }
+            }
+
+            .cases-item {
+                // background   : #ADB7BE;
+                color: #1C3649;
+                font-size: 16px;
+                height: 78px;
+                position: relative;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+
+                .item-one {
+                    background: #ADB7BE;
+                    width: 100%;
+                }
+
+                .img {
+                    width: 40%;
+                    height: 78px;
+                    position: relative;
+                    flex-shrink: 0;
+
+                    img {
+                        width: 100%;
+                        padding-left: 10px;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        margin: auto;
+                        height: 55px;
+                    }
+                }
+
+
+
+                // padding-right: 0px !important;
+                .casae-title {
+                    width: 100%;
+                    font-size: 12px;
+                    height: 78px;
+                    text-align: center;
+                }
+
+                .cases-number {
+                    background: #AF9786;
+                    color: #fff;
+                    height: 78px;
+                    width: 60px;
+                    text-align: center;
+                    line-height: 78px;
+                }
+            }
+        }
+
+        .more {
+            cursor: pointer;
+            width: 110px;
+            height: 30px;
+            background: #EB6D6E;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14px;
+            color: #fff;
+            margin: 0px auto;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1330px) {
+    .index {
+
+        .index-head-div {
+            position: relative;
+            margin: 0 0 -22px 0;
+            color: #FFFFFF;
+
+            .index-head-banner {
+                width: 100%;
+                height: auto;
+            }
+
+            .index-head-text {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 50%; //水平居中
+                height: 30%;
+                margin: auto;
+                text-align: center;
+                letter-spacing: 4px;
+
+                .index-head-title {
+                    font-size: 32px;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                }
+
+                .index-head-subtitle {
+                    font-size: 22px;
+                }
+
+                .index-head-join {
+                    cursor: pointer;
+                    margin-top: 30px;
+                    height: 42px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .index {
+        .index-head-div {
+            position: relative;
+            margin: 0 0 -22px 0;
+            color: #FFFFFF;
+
+            .index-head-banner {
+                width: 100%;
+                height: auto;
+            }
+
+            .index-head-text {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 50%; //水平居中
+                height: 40%;
+                margin: auto;
+                text-align: center;
+                letter-spacing: 4px;
+
+                .index-head-title {
+                    font-size: 32px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+
+                .index-head-subtitle {
+                    font-size: 18px;
+                }
+
+                .index-head-join {
+                    cursor: pointer;
+                    margin-top: 20px;
+                    height: 32px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .index {
+        .index-head-div {
+            position: relative;
+            margin: 0 0 -22px 0;
+            color: #FFFFFF;
+
+            .index-head-banner {
+                width: 100%;
+                height: auto;
+            }
+
+            .index-head-text {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 50%; //水平居中
+                height: 40%;
+                margin: auto;
+                text-align: center;
+                letter-spacing: 2px;
+
+                .index-head-title {
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-bottom: 14px;
+                }
+
+                .index-head-subtitle {
+                    font-size: 14px;
+                }
+
+                .index-head-join {
+                    cursor: pointer;
+                    margin-top: 14px;
+                    height: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .index {
+        .index-head-div {
+            position: relative;
+            margin: 0 0 -22px 0;
+            color: #FFFFFF;
+
+            .index-head-banner {
+                width: 100%;
+                height: auto;
+            }
+
+            .index-head-text {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 80%; //水平居中
+                height: 56%;
+                margin: auto;
+                text-align: center;
+                letter-spacing: 1px;
+
+                .index-head-title {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                }
+
+                .index-head-subtitle {
+                    font-size: 10px;
+                }
+
+                .index-head-join {
+                    cursor: pointer;
+                    margin-top: 0;
+                    height: 18px;
+                }
+            }
+        }
+    }
+
+    .liuxue-left {
+        margin-bottom: 14px;
+    }
+
+    .liuxue-content {
+        bottom: 13px !important;
+
+        .content-one {
+            font-size: 20px !important;
+        }
+
+        .content-two {
+            font-size: 16px !important;
+        }
+    }
+
+    .cases-bg {
+        padding: 10px !important;
+
+        .casae-title {
+            font-size: 12px !important;
+        }
+    }
+}

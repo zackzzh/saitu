@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/course.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <title>课程介绍</title>
+</head>
+
+<body>
+    <div id="common-modal"></div>
+    <div id="common-head"></div>
+	<div id="common-qr"></div>
+    <div class="page-course">
+        <div class="banner">
+            <img src="./img/course/banner.png" alt="">
+            <div class="add-us">立即开启</div>
+        </div>
+        <div class="container">
+            <div class="index-t">
+                <div>COURSES</div>
+                <div>课程介绍</div>
+            </div>
+            <div class="course-table">
+                <div class="course-thead">
+                    <div class="thead-one line">
+                        <div class="dropdown">
+                            <div id="dropdownMenuButton" class="btn btn-detault dropdown-toggle" role="button"
+                                data-toggle="dropdown" aria-haspopup="divue" aria-expanded="false">
+                                课程类型：全部
+                            </div>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">雅思IELES</a>
+                                <a class="dropdown-item" href="#">托福TOEFL</a>
+                                <a class="dropdown-item" href="#">TOEFL JUNIOR</a>
+                                <a class="dropdown-item" href="#">SAT/ACT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thead-one">课程名称</div>
+                    <div class="thead-one">班型</div>
+                    <div class="thead-three">课时</div>
+                    <div class="thead-two">适用学生</div>
+                    <div class="thead-one">价格</div>
+                    <div class="thead-three">详情</div>
+                </div>
+                <div class="table wow fadeIn" data-wow-duration="2s">
+                    <div class="course-body">
+                        <div class="course-body-item">
+                            <div class="thead-one td">
+                                <img src="./img/course/c1.png" alt="">
+                            </div>
+                            <div class="thead-one td">
+                                SAT预备段课程
+                            </div>
+                            <div class="thead-one td">
+                                1V3，1V6
+                            </div>
+                            <div class="thead-three td">
+                                75课时
+                            </div>
+                            <div class="thead-two td">
+                                基础段课程结束或者顶级测试正确率在75%以上者
+                            </div>
+                            <div class="thead-one td">
+                                200元/课时
+                            </div>
+                            <div class="thead-three td none">
+                                <span class="right-item">【课程详情】</span>
+                            </div>
+                        </div>
+                        <div class="course-body-item">
+                            <div class="thead-one td">
+                                <img src="./img/course/c1.png" alt="">
+                            </div>
+                            <div class="thead-one td">
+                                SAT预备段课程
+                            </div>
+                            <div class="thead-one td">
+                                1V3，1V6
+                            </div>
+                            <div class="thead-three td">
+                                75课时
+                            </div>
+                            <div class="thead-two td">
+                                基础段课程结束或者顶级测试正确率在75%以上者
+                            </div>
+                            <div class="thead-one td">
+                                200元/课时
+                            </div>
+                            <div class="thead-three td none">
+                                <span class="right-item">【课程详情】</span>
+                            </div>
+                        </div>
+                        <div class="course-body-item">
+                            <div class="thead-one td">
+                                <img src="./img/course/c1.png" alt="">
+                            </div>
+                            <div class="thead-one td">
+                                SAT预备段课程
+                            </div>
+                            <div class="thead-one td">
+                                1V3，1V6
+                            </div>
+                            <div class="thead-three td">
+                                75课时
+                            </div>
+                            <div class="thead-two td">
+                                基础段课程结束或者顶级测试正确率在75%以上者
+                            </div>
+                            <div class="thead-one td">
+                                200元/课时
+                            </div>
+                            <div class="thead-three td none">
+                                <span class="right-item">【课程详情】</span>
+                            </div>
+                        </div>
+                        <div class="course-body-item">
+                            <div class="thead-one td">
+                                <img src="./img/course/c1.png" alt="">
+                            </div>
+                            <div class="thead-one td">
+                                SAT预备段课程
+                            </div>
+                            <div class="thead-one td">
+                                1V3，1V6
+                            </div>
+                            <div class="thead-three td">
+                                75课时
+                            </div>
+                            <div class="thead-two td">
+                                基础段课程结束或者顶级测试正确率在75%以上者
+                            </div>
+                            <div class="thead-one td">
+                                200元/课时
+                            </div>
+                            <div class="thead-three td none">
+                                <span class="right-item">【课程详情】</span>
+                            </div>
+                        </div>
+                        <div class="course-body-item">
+                            <div class="thead-one td">
+                                <img src="./img/course/c1.png" alt="">
+                            </div>
+                            <div class="thead-one td">
+                                SAT预备段课程
+                            </div>
+                            <div class="thead-one td">
+                                1V3，1V6
+                            </div>
+                            <div class="thead-three td">
+                                75课时
+                            </div>
+                            <div class="thead-two td">
+                                基础段课程结束或者顶级测试正确率在75%以上者
+                            </div>
+                            <div class="thead-one td">
+                                200元/课时
+                            </div>
+                            <div class="thead-three td none">
+                                <span class="right-item">【课程详情】</span>
+                            </div>
+                        </div>
+                        <div class="course-body-item">
+                            <div class="thead-one td">
+                                <img src="./img/course/c1.png" alt="">
+                            </div>
+                            <div class="thead-one td">
+                                SAT预备段课程
+                            </div>
+                            <div class="thead-one td">
+                                1V3，1V6
+                            </div>
+                            <div class="thead-three td">
+                                75课时
+                            </div>
+                            <div class="thead-two td">
+                                基础段课程结束或者顶级测试正确率在75%以上者
+                            </div>
+                            <div class="thead-one td">
+                                200元/课时
+                            </div>
+                            <div class="thead-three td none">
+                                <span class="right-item">【课程详情】</span>
+                            </div>
+                        </div>
+                        <div class="course-body-item">
+                            <div class="thead-one td">
+                                <img src="./img/course/c1.png" alt="">
+                            </div>
+                            <div class="thead-one td">
+                                SAT预备段课程
+                            </div>
+                            <div class="thead-one td">
+                                1V3，1V6
+                            </div>
+                            <div class="thead-three td">
+                                75课时
+                            </div>
+                            <div class="thead-two td">
+                                基础段课程结束或者顶级测试正确率在75%以上者
+                            </div>
+                            <div class="thead-one td">
+                                200元/课时
+                            </div>
+                            <div class="thead-three td none">
+                                <span class="right-item">【课程详情】</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script>
+        new WOW().init();
+        $('.right-item').click(function () {
+            $go({
+                path: 'courseDetail'
+            })
+        })
+        $(".add-us").click(function () {
+            $("#common-modal").css({ display: 'block' })
+            $("#common-modal .common-modal").css({ display: 'block' })
+        })
+    </script>
+</body>
+
+</html>

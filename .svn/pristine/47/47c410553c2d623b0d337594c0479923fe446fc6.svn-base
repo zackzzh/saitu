@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/news.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <title>赛图时讯</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+    <div class="page-news">
+        <div class="container">
+            <div class="index-t">
+                <div>赛图时讯</div>
+                <div>Rev ShangXin -</div>
+            </div>
+            <div class="news-content">
+                <div class="content-top d-flex align-items-center">
+                    <img src="./img/news/n6.png" alt="">
+                    <span>新闻中心</span>
+                </div>
+                <div class="content-mid p-4 row">
+                    <div class="mid-left col-xl-8 col-md-8 col-sm-12">
+                        <div class="left-top">
+                            <img src="./img/news/n2.png" alt="">
+                        </div>
+                        <div class="left-list">
+                            <div class="list-item row">
+                                <div class="item-left col-xl-3 col-md-4 col-sm-12">
+                                    <img src="./img/news/n3.png" alt="">
+                                </div>
+                                <div class="item-right col-xl-9 col-md-8 col-sm-12">
+                                    <div class="right-top d-flex justify-content-between">
+                                        <div class="top-one d-flex align-items-center flex-shrink-1">
+                                            <div class="span"></div>
+                                            <span class="title">高考志愿应如年录取数据</span>
+                                        </div>
+                                        <div class="time flex-shrink-0"><span>2019-4-29</span></div>
+                                    </div>
+                                    <div class="right-content">
+                                        高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿
+                                        应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item row">
+                                <div class="item-left col-xl-3 col-md-4 col-sm-12">
+                                    <img src="./img/news/n3.png" alt="">
+                                </div>
+                                <div class="item-right col-xl-9 col-md-8 col-sm-12">
+                                    <div class="right-top d-flex justify-content-between">
+                                        <div class="top-one d-flex align-items-center">
+                                            <div class="span"></div>
+                                            <span class="title">高考志愿应如何参录取数据高考志愿应如何参录取数据</span>
+                                        </div>
+                                        <div class="time flex-shrink-0"><span>2019-4-29</span></div>
+                                    </div>
+                                    <div class="right-content">
+                                        高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿
+                                        应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item row">
+                                <div class="item-left col-xl-3 col-md-4 col-sm-12">
+                                    <img src="./img/news/n3.png" alt="">
+                                </div>
+                                <div class="item-right col-xl-9 col-md-8 col-sm-12">
+                                    <div class="right-top d-flex justify-content-between">
+                                        <div class="top-one d-flex align-items-center">
+                                            <div class="span"></div>
+                                            <span class="title">高考志愿应如何参录取数据高考志愿应如何参录取数据</span>
+                                        </div>
+                                        <div class="time flex-shrink-0"><span>2019-4-29</span></div>
+                                    </div>
+                                    <div class="right-content">
+                                        高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿
+                                        应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mid-right col-xl-4 col-md-4 col-sm-12">
+                        <div class="top">
+                            <img src="./img/news/n5.png" alt=""> 门资讯
+                        </div>
+                        <div class="content d-flex align-items-center">
+                            <div class="content-left col-4">
+                                <img src="./img/news/n4.png" alt="">
+                            </div>
+                            <div class="content-right col-8">
+                                <div class="right-one">高考志愿如何填报才科学？</div>
+                                <div class="right-two">考志愿应如何参考往年录取数据高应如何参考往年参</div>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                            <div class="span"></div>
+                            <span>高考志愿应如何参考往年录取数据高考志愿应如何参考往年录取数据</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                            <div class="span"></div>
+                            <span>高考志愿应如何参考往年录取数据</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                            <div class="span"></div>
+                            <span>高考志愿应如何参考往年录取数据</span>
+                        </div>
+                        <div class="bottom d-flex align-items-center">
+                            <div class="span"></div>
+                            <span>高考志愿应如何参考往年录取数据</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script type="text/javascript">
+        $('.list-item').click(function () {
+            $go({
+                path: 'newsDetail'
+            })
+        })
+        $('.mid-right .content').click(function () {
+            $go({
+                path: 'newsDetail'
+            })
+        })
+        $('.mid-right .bottom').click(function () {
+            $go({
+                path: 'newsDetail'
+            })
+        })
+    </script>
+</body>
+
+</html>

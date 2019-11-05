@@ -1,0 +1,431 @@
+.index {
+  width: 100%;
+  overflow-x: hidden;
+  background: #E9EBEB;
+  padding-bottom: 120px;
+}
+.index .index-head-div {
+  position: relative;
+  color: #FFFFFF;
+}
+.index .index-head-div .index-head-banner {
+  width: 100%;
+  height: auto;
+}
+.index .index-head-div .index-head-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 30%;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.index .index-head-div .index-head-text .index-head-title {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.index .index-head-div .index-head-text .index-head-subtitle {
+  font-size: 30px;
+}
+.index .index-head-div .index-head-text .index-head-join {
+  cursor: pointer;
+  margin-top: 30px;
+  height: 56px;
+}
+.index .swiper-container img {
+  width: 100%;
+}
+.index .liuxue .liuxue-left {
+  margin-bottom: 10px;
+}
+.index .liuxue .liuxue-left img {
+  margin-bottom: 14px;
+  width: 100%;
+}
+.index .liuxue .liuxue-left img:last-child {
+  margin-bottom: 0px;
+}
+.index .liuxue .liuxue-right {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+.index .liuxue .liuxue-right img {
+  width: 100%;
+  height: 100%;
+}
+.index .liuxue .liuxue-right .liuxue-content {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  z-index: 100;
+  color: #0C0C0C;
+  box-sizing: border-box;
+  width: 94%;
+  padding: 10px 34px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.index .liuxue .liuxue-right .liuxue-content .content-one {
+  font-size: 28px;
+  font-weight: bold;
+}
+.index .liuxue .liuxue-right .liuxue-content .content-line {
+  margin: 6px auto;
+  width: 100px;
+  height: 1px;
+  background: #0C0C0C;
+}
+.index .liuxue .liuxue-right .liuxue-content .content-two {
+  font-size: 20px;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.index .index-t {
+  color: #0C273C;
+  padding-top: 92px;
+  margin: 0 auto 36px auto;
+  text-align: center;
+  color: #FF5B5B;
+}
+.index .index-t div:nth-child(1) {
+  font-size: 32px;
+}
+.index .index-t div:nth-child(2) {
+  font-size: 26px;
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+.index .index-t div:nth-child(2)::after {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  content: "";
+  width: 100%;
+  height: 0;
+  border: 2px solid #728585;
+}
+.index .team {
+  cursor: pointer;
+  color: #0C273C;
+}
+.index .team img {
+  width: 100%;
+}
+.index .team .img {
+  width: 100%;
+  overflow: hidden;
+}
+.index .team .img img {
+  width: 100%;
+}
+.index .team .img img:hover {
+  transition: All 0.4s ease-in-out;
+  -webkit-transition: All 0.4s ease-in-out;
+  -moz-transition: All 0.4s ease-in-out;
+  -o-transition: All 0.4s ease-in-out;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+.index .team .team-bg {
+  padding: 0;
+  background-image: url('../img/index/ybg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.index .team .team-name {
+  font-size: 22px;
+}
+.index .team .team-line {
+  width: 80%;
+  margin: 5px 0;
+  height: 1px;
+  background: #000;
+}
+.index .team .team-school {
+  font-size: 16px;
+  color: #344554;
+}
+.index .team .team-techol {
+  font-size: 16px;
+  color: #414F5C;
+}
+.index .team .more {
+  cursor: pointer;
+  width: 110px;
+  height: 30px;
+  background: #EB6D6E;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+.index .cases .cases-bg {
+  background-image: url('../img/index/lbg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30px;
+}
+.index .cases .cases-bg .bg-top {
+  width: 100%;
+  text-align: center;
+  color: #EB6D6E;
+  font-size: 22px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.index .cases .cases-bg .bg-top .top-title {
+  font-size: 36px;
+}
+.index .cases .cases-bg .bg-top .top-line {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #EB6D6E;
+  margin: 15px auto;
+  position: relative;
+}
+.index .cases .cases-bg .bg-top .top-line::after {
+  position: absolute;
+  top: 3px;
+  left: 40px;
+  content: "";
+  width: 1000%;
+  height: 0;
+  border: 1px solid #EB6D6E;
+}
+.index .cases .cases-bg .bg-top .top-line::before {
+  right: 40px;
+  position: absolute;
+  top: 3px;
+  content: "";
+  width: 1000%;
+  height: 0;
+  border: 1px solid #EB6D6E;
+}
+.index .cases .cases-bg .cases-item {
+  color: #1C3649;
+  font-size: 16px;
+  height: 78px;
+  position: relative;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.index .cases .cases-bg .cases-item .item-one {
+  background: #ADB7BE;
+  width: 100%;
+}
+.index .cases .cases-bg .cases-item .img {
+  width: 40%;
+  height: 78px;
+  position: relative;
+  flex-shrink: 0;
+}
+.index .cases .cases-bg .cases-item .img img {
+  width: 100%;
+  padding-left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  height: 55px;
+}
+.index .cases .cases-bg .cases-item .casae-title {
+  width: 100%;
+  font-size: 12px;
+  height: 78px;
+  text-align: center;
+}
+.index .cases .cases-bg .cases-item .cases-number {
+  background: #AF9786;
+  color: #fff;
+  height: 78px;
+  width: 60px;
+  text-align: center;
+  line-height: 78px;
+}
+.index .cases .more {
+  cursor: pointer;
+  width: 110px;
+  height: 30px;
+  background: #EB6D6E;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+@media screen and (min-width: 1024px) and (max-width: 1330px) {
+  .index .index-head-div {
+    position: relative;
+    color: #FFFFFF;
+  }
+  .index .index-head-div .index-head-banner {
+    width: 100%;
+    height: auto;
+  }
+  .index .index-head-div .index-head-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  .index .index-head-div .index-head-text .index-head-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .index .index-head-div .index-head-text .index-head-subtitle {
+    font-size: 22px;
+  }
+  .index .index-head-div .index-head-text .index-head-join {
+    cursor: pointer;
+    margin-top: 30px;
+    height: 42px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .index .index-head-div {
+    position: relative;
+    color: #FFFFFF;
+  }
+  .index .index-head-div .index-head-banner {
+    width: 100%;
+    height: auto;
+  }
+  .index .index-head-div .index-head-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  .index .index-head-div .index-head-text .index-head-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .index .index-head-div .index-head-text .index-head-subtitle {
+    font-size: 18px;
+  }
+  .index .index-head-div .index-head-text .index-head-join {
+    cursor: pointer;
+    margin-top: 20px;
+    height: 32px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .index .index-head-div {
+    position: relative;
+    color: #FFFFFF;
+  }
+  .index .index-head-div .index-head-banner {
+    width: 100%;
+    height: auto;
+  }
+  .index .index-head-div .index-head-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  .index .index-head-div .index-head-text .index-head-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 14px;
+  }
+  .index .index-head-div .index-head-text .index-head-subtitle {
+    font-size: 14px;
+  }
+  .index .index-head-div .index-head-text .index-head-join {
+    cursor: pointer;
+    margin-top: 14px;
+    height: 22px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .index .index-head-div {
+    position: relative;
+    color: #FFFFFF;
+  }
+  .index .index-head-div .index-head-banner {
+    width: 100%;
+    height: auto;
+  }
+  .index .index-head-div .index-head-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 56%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .index .index-head-div .index-head-text .index-head-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .index .index-head-div .index-head-text .index-head-subtitle {
+    font-size: 10px;
+  }
+  .index .index-head-div .index-head-text .index-head-join {
+    cursor: pointer;
+    margin-top: 0;
+    height: 18px;
+  }
+  .liuxue-left {
+    margin-bottom: 14px;
+  }
+  .liuxue-content {
+    bottom: 13px !important;
+  }
+  .liuxue-content .content-one {
+    font-size: 20px !important;
+  }
+  .liuxue-content .content-two {
+    font-size: 16px !important;
+  }
+  .cases-bg {
+    padding: 10px !important;
+  }
+  .cases-bg .casae-title {
+    font-size: 12px !important;
+  }
+}

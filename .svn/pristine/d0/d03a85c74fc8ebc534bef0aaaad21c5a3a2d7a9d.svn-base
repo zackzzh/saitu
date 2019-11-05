@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="../css/experts/experts.less" />
+
+    <script src="../config/dots_sum.js"></script>
+    <script src="../config/head_import.js"></script>
+
+    <title>赛图-师资力量</title>
+</head>
+
+<body>
+    <div class="experts-main-type">
+        <div id="common-head"></div>
+        <div id="common-qr"></div>
+
+        <img src="../img/experts/head.png" />
+        <div class="experts-content-main-div">
+            <div class="experts-content-div container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"
+                        style="margin-bottom: 20px; background:#0C273C; padding:0;">
+                        <!-- 左侧 -->
+                        <div class="experts-left-div">
+                            <div class="experts-left-title">为什么需要招生官？</div>
+                            <div class="experts-left-content">
+                                招生官在美国名校录取中扮演这举足轻重的角色，他们是招生材料审核人、把关人，有的还是面试负责人。由于各大学校历史文化等方面的差异，录取人才的偏好也有所不同。招生官要审慎把握学校录取人才的标准和方向，从而在诸多申请中选出与学校最契合的学生。
+                            </div>
+                            <div class="experts-left-title">招生官的职责是什么？</div>
+                            <div class="experts-left-content">
+                                招生官团队职责明确，我们会为每一位学生分配招生官，并对学生分配招生官，并对学生申请全过程一对一指导。从前期的活动规划到后期的选校、文书以及面试等，每一个环节学生都要来接受来自招生官的全面评估和指导。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                        <div class="experts-right-div">
+                            <div class="experts-right-title">本科留学专家<span>Undergraduate study abroad expert</span></div>
+                            <div class="experts-img-div">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experts-right-div wow fadeIn" data-wow-duration="2s">
+                            <div class="experts-right-title">硕士留学专家<span>Master study abroad expert</span></div>
+                            <div class="experts-img-div">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experts-right-div wow fadeIn" data-wow-duration="2s">
+                            <div class="experts-right-title">博士留学专家<span>Doctor expert</span></div>
+                            <div class="experts-img-div">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 10px;"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
+                                        <img src="../img/experts/img.png" />
+                                        <div class="experts-card-content">
+                                            <div class="experts-card-name">董跃</div>
+                                            <div class="experts-card-school">宾夕法尼大学</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Button trigger modal -->
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Launch demo modal
+        </button> -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body" style="padding: 0">
+                        <button type="button" class="close experts-modal-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12" style="padding: 0">
+                                <div class="experts-modal-left-div">
+                                    <div class="experts-modal-left-padding">
+                                        姓 名：叶子铭
+                                    </div>
+                                    <div class="experts-modal-left-padding">
+                                        英 文 名：Jonah
+                                    </div>
+                                    <div class="experts-modal-left-padding">
+                                        国 籍：中国
+                                    </div>
+                                    <div class="experts-modal-left-padding">
+                                        教授课程：雅思托福SAT、ACT、GRE、GMAT阅读与词汇
+                                    </div>
+                                    <div>
+                                        教师简介：西安外国语大学英美文学学士、广东外语外贸大学高级翻译学院国际会议传译方向硕士、曾担任墨西哥前总统塞迪略先生贴身翻译、爱尔兰前总理布鲁顿先生贴身翻译等，威久国际教育创始人、教学总监、优秀教师、国际游学金牌领队、ETS
+                                        Prep 官方认证培训师、British Council
+                                        雅思官方Workshop认证教师，原西安广播电台i尚旅游94（FM94.0）旅游广播《94旅行箱》双语主持人，现任广东电视台教育频道Talking
+                                        Talking
+                                        栏目组梦想导师。BEC口语满分、雅思8.5分（口语8分听力9分，阅读9分,写作8分），托福写作28分，托福阅读30分，
+                                        11年丰富教学经验、人格魅力和才华横溢得到学生的喜爱和高度认可，因对雅思、托福阅读的深入研究与规律把握帮助学生获取雅思阅读7+，托福阅读24+，被学生亲切称为“阅读王”“写作王”。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12" style="padding: 0">
+                                <img style="width: 100%" src="../img/experts/img.png" alt="img.png">
+                                <div class="experts-modal-right-div">
+                                    <div class="experts-modal-right-padding">
+                                        叶子铭
+                                    </div>
+                                    <div>
+                                        杜伦大学学士，
+                                    </div>
+                                    <div>
+                                        UCL（伦敦大学学院）硕士
+                                    </div>
+                                    <div class="experts-modal-right-padding">
+                                        前杜伦大学中国学联干部
+                                    </div>
+                                    <div>
+                                        多在学生的角度思考，着急学生所着急的事，尽最大努力帮助学生解决所有的困惑与烦恼，用心去服务每一位需要帮助的学生。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="common-footer"></div>
+    </div>
+
+
+    <script src="../config/body_import.js"></script>
+    <script src="../js/experts/expertsData.js"></script>
+    <script src="../js/experts/experts.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

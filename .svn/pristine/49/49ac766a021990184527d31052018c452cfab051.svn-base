@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/course-detail.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <title>课程介绍详情</title>
+</head>
+
+<body>
+    <div id="common-modal"></div>
+    <div id="common-head"></div>
+	<div id="common-qr"></div>
+    <div class="page-course">
+        <div class="banner">
+            <img src="./img/course/banner.png" alt="">
+            <div class="add-us">立即开启</div>
+        </div>
+        <div class="container course-content">
+            <div class="course-title">
+                赛图gmat提升段课程
+            </div>
+            <div class="course-subtitle">
+                目标: 冲700分
+            </div>
+            <div class="course-subtitle">
+                对象: 基础段课程结束者或定级测试正确率在75%以上者
+            </div>
+            <div class="course-subtitle">
+                课时: 72，历时3周，Verbal，Quantitative和Analytical Writing Assessment共三个板块
+            </div>
+            <div class="course-subtitle">
+                教师: 3-4名一线教师
+            </div>
+            <div class="course-subtitle student">
+                学生: 1v1、1v3、1v6
+            </div>
+            <div class="bold">
+                此阶段将学习应试技巧，与解题思路。
+            </div>
+            <p>
+                Verbal:在这个版块中阅读理解是最困难的,重点培养各位同学单词和句子的能力,即文章中术语理解能力和对英语这么语言的整体理解能力;井且锤炼各位信号词的理解和使用能力,GMAT阅读理解的成败就在于正确利用此类逻辑关系,教会各位同学分辨文中某一论据的优劣,并且能够评估文中论据和观点的重要性进而完全把控作者意图,为做题服务。在批判性推理板块我们不仅仅会根据官方样题来进行削弱,支持假设,评估等分类后传输技巧,更注重对CR题型考察点的分析,帮助各位同学树立起正确,完整的批判性推理体系,让各位在考场能够从容应对。就改错板块我们的老师与官方保持高度一致,我们将水远坚持三个原则:1保持原句重心;2意思单一,简介有效;3各种选取最优而非最完美的表达,这三条原则看似简单却是长时问积累锤炼的老师方能帮各位贯彻执行,进而轻松拿下改错题
+                Quantitative:这个阶段的学生要着重解决三个问题:读题问题,思维问题和细节问题,将会加大词扩充,题干分析与理解,进而解决词汇问题和速度问题;其次就是思维问题,想太多,容易把题目想复杂;想太少容易漏读题目条件,赛图国际教育的老师将会帮助各位仔细斟的,巧妙平衡:关于细节问题就是帮助各位树立起实效性的数学考察理念,培养快速解题技巧与能力。
+                Analytical Writing
+                Assessment:写作这块赛图教育将会从五个方面培养各位的写作能力:1,论证的总体质量:;2,组织、表达和深化观点的总体能力;3,运用相关论据和例子的能力;4,掌控标准英语写作要素的能力。
+            </p>
+            <div class="course-subtitle">
+                备注:另有GMAT预备段,基础段,突破段和高分段相关课程以及不同类型的班级.课程与费用详情请咨询课程顾
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script>
+        new WOW().init();
+        $(".add-us").click(function () {
+            $("#common-modal").css({ display: 'block' })
+            $("#common-modal .common-modal").css({ display: 'block' })
+        })
+    </script>
+</body>
+
+</html>

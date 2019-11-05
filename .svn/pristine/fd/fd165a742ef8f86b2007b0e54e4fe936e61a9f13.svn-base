@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/material-collect.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <title>资料下载</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+    <div class="page-material">
+        <div class="banner">
+            <img src="./img/material/banner.png" alt="">
+            <div class="add-us">加入我们</div>
+        </div>
+        <div class="container">
+            <div class="search d-flex align-items-center">
+                <div class="search-one d-flex align-items-center collect">
+                    <img src="./img/material/m1.png" alt="">
+                    我的收藏
+                </div>
+                <div class="search-one d-flex align-items-center download">
+                    <img src="./img/material/m2.png" alt="">
+                    我的下载
+                </div>
+                <div class="search-two d-flex align-items-center">
+                    <input type="text">
+                    <img src="./img/material/m3.png" alt="">
+                </div>
+                <div class="search-three">
+                    赛图资料
+                </div>
+            </div>
+            <div class="index-t">
+                <div>我的下载</div>
+                <div>MY DOWNLOAD</div>
+            </div>
+            <div class="main d-flex flex-wrap">
+                <div class="right-item col-xl-4 col-md-6 col-sm-12">
+                    <img src="./img/index/x1.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">雅思听力考试回忆及答案a</div>
+                        <div class="time">2019年5月4日</div>
+                        <div class="content">
+                            无论您是要驾驶飞机、娱乐大众还是
+                            出售鞋子，您都可以利用设计和数据，
+                            让令人难以忘怀的体验成为您的整个
+                            业务的一部分。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-4 col-md-6 col-sm-12">
+                    <img src="./img/index/x1.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">雅思听力考试回忆及答案a</div>
+                        <div class="time">2019年5月4日</div>
+                        <div class="content">
+                            无论您是要驾驶飞机、娱乐大众还是
+                            出售鞋子，您都可以利用设计和数据，
+                            让令人难以忘怀的体验成为您的整个
+                            业务的一部分。
+                        </div>
+                    </div>
+                </div>
+                <div class="right-item col-xl-4 col-md-6 col-sm-12">
+                    <img src="./img/index/x1.png" alt="">
+                    <div class="item-bottom">
+                        <div class="title">雅思听力考试回忆及答案a</div>
+                        <div class="time">2019年5月4日</div>
+                        <div class="content">
+                            无论您是要驾驶飞机、娱乐大众还是
+                            出售鞋子，您都可以利用设计和数据，
+                            让令人难以忘怀的体验成为您的整个
+                            业务的一部分。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="none">没有更多的资源了...</div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script>
+        $('.collect').click(function () {
+            $go({
+                path: 'materialCollect'
+            })
+        })
+        $('.right-item').click(function () {
+            $go({
+                path: 'materialDetail'
+            })
+        })
+        $('.download').click(function () {
+            $go({
+                path: 'materialDownload'
+            })
+        })
+        $('.add-us').click(function () {
+            $go({
+                path: 'join'
+            })
+        })
+    </script>
+</body>
+
+</html>

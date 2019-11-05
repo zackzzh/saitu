@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="../css/study-abroad/study-abroad.less" />
+
+    <script src="../config/dots_sum.js"></script>
+    <script src="../config/head_import.js"></script>
+
+    <title>赛图-游学服务</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+	<div id="common-qr"></div>
+    <div class="study-abroad-main-div">
+        <div class="study-abroad-card-div">
+            <div class="study-abroad-img-div">
+                <img class="study-abroad-img-type" src="../img/study-abroad/01.png" />
+                <div class="study-abroad-img-title">标准化考试</div>
+            </div>
+            <div class="study-abroad-card-div-text">
+                <img src="../img/study-abroad/i01.png" align="center" />
+                <div class="study-abroad-card-title">标准化测试</div>
+                <div class="study-abroad-card-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                </div>
+            </div>
+        </div>
+
+        <div class="study-abroad-card-div">
+            <div class="study-abroad-card-div-text" style="float: left;margin: 40px 0 0 0;padding: 0 10px 0 40px;">
+                <img src="../img/study-abroad/i02.png" align="center" style="float: left;margin: 0 40px 0 0;" />
+                <div class="study-abroad-card-title">学术表现</div>
+                <div class="study-abroad-card-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                </div>
+            </div>
+            <div class="study-abroad-img-div">
+                <img class="study-abroad-img-type" src="../img/study-abroad/02.png" />
+                <div class="study-abroad-img-title">学术成绩</div>
+            </div>
+        </div>
+
+        <div class="study-abroad-card-div wow fadeIn" data-wow-duration="3s">
+            <div class="study-abroad-img-div">
+                <img class="study-abroad-img-type" src="../img/study-abroad/03.png" />
+                <div class="study-abroad-img-title">团建活动</div>
+            </div>
+            <div class="study-abroad-card-div-text">
+                <img src="../img/study-abroad/i03.png" align="center" />
+                <div class="study-abroad-card-title">课外活动</div>
+                <div class="study-abroad-card-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                </div>
+            </div>
+        </div>
+
+        <div class="study-abroad-card-div wow fadeIn" data-wow-duration="3s">
+            <div class="study-abroad-card-div-text" style="float: left;margin: 40px 0 0 0;padding: 0 10px 0 40px;">
+                <img src="../img/study-abroad/i04.png" align="center" style="float: left;margin: 0 40px 0 0;" />
+                <div class="study-abroad-card-title">文书</div>
+                <div class="study-abroad-card-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                </div>
+            </div>
+            <div class="study-abroad-img-div">
+                <img class="study-abroad-img-type" src="../img/study-abroad/04.png" />
+                <div class="study-abroad-img-title">随笔</div>
+            </div>
+        </div>
+
+        <div class="study-abroad-card-div wow fadeIn" data-wow-duration="3s">
+            <div class="study-abroad-img-div">
+                <img class="study-abroad-img-type" src="../img/study-abroad/05.png" />
+                <div class="study-abroad-img-title">分配信</div>
+            </div>
+            <div class="study-abroad-card-div-text">
+                <img src="../img/study-abroad/i05.png" align="center" />
+                <div class="study-abroad-card-title">推荐信</div>
+                <div class="study-abroad-card-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                </div>
+            </div>
+        </div>
+
+        <div class="study-abroad-card-div wow fadeIn" data-wow-duration="3s">
+            <div class="study-abroad-card-div-text" style="float: left;margin: 40px 0 0 0;padding: 0 10px 0 40px;">
+                <img src="../img/study-abroad/i06.png" align="center" style="float: left;margin: 0 40px 0 0;" />
+                <div class="study-abroad-card-title">面试</div>
+                <div class="study-abroad-card-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                </div>
+            </div>
+            <div class="study-abroad-img-div">
+                <img class="study-abroad-img-type" src="../img/study-abroad/06.png" />
+                <div class="study-abroad-img-title">面招</div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+
+    <script src="../config/body_import.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

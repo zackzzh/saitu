@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/course-detail.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <title>课程介绍详情</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+    <div class="page-course">
+        <div class="banner">
+            <img src="./img/course/banner.png" alt="">
+            <div class="add-us">立即开启</div>
+        </div>
+        <div class="container">
+            <div class="index-t">
+                <div>课程介绍</div>
+                <div>COURSE INTRODUCTION</div>
+            </div>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr class="course-thead">
+                            <th class="thead-one">
+                                <div class="dropdown">
+                                    <div id="dropdownMenuButton" class="btn btn-detault dropdown-toggle" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        课程类型：全部
+                                    </div>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">雅思IELES</a>
+                                        <a class="dropdown-item" href="#">托福TOEFL</a>
+                                        <a class="dropdown-item" href="#">TOEFL JUNIOR</a>
+                                        <a class="dropdown-item" href="#">SAT/ACT</a>
+                                    </div>
+                                </div>
+                            </th>
+                            <th class="thead-two">课程名称</th>
+                            <th class="thead-two">人数</th>
+                            <th class="thead-three">课程目标</th>
+                        </tr>
+                    </thead>
+                    <tbody class="course-body">
+                        <tr>
+                            <td class="thead-one">雅思IELES</td>
+                            <td class="thead-two">
+                                5.5分基础班 6分强化班
+                                7分突破班 写作单项班
+                            </td>
+                            <td class="thead-two">1-3人</td>
+                            <td class="thead-three">牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,</td>
+                        </tr>
+                        <tr>
+                            <td class="thead-one">托福TOEFL</td>
+                            <td class="thead-two">
+                                基础班 强化班
+                                预备冲刺班 终极冲刺班
+                            </td>
+                            <td class="thead-two">1-3人</td>
+                            <td class="thead-three">牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,</td>
+                        </tr>
+                        <tr>
+                            <td class="thead-one">TOEFL JUNIOR</td>
+                            <td class="thead-two">
+                                提高班 培优班
+                            </td>
+                            <td class="thead-two">1-3人</td>
+                            <td class="thead-three">牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,</td>
+                        </tr>
+                        <tr>
+                            <td class="thead-one">SAT/ACT</td>
+                            <td class="thead-two">
+                                基础班 强化班
+                                预备冲刺班 终极冲刺班
+                                模拟考冲刺班
+                            </td>
+                            <td class="thead-two">1-3人</td>
+                            <td class="thead-three">牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,</td>
+                        </tr>
+                        <tr>
+                            <td class="thead-one">GMAT/GRE</td>
+                            <td class="thead-two">
+                                提高班 保分班
+                            </td>
+                            <td class="thead-two">1-3人</td>
+                            <td class="thead-three">牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,</td>
+                        </tr>
+                        <tr>
+                            <td class="thead-one">新概念英语</td>
+                            <td class="thead-two">
+                                第一期 第二期
+                                第三期 第四期
+                            </td>
+                            <td class="thead-two">1-3人</td>
+                            <td class="thead-three">牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,</td>
+                        </tr>
+                        <tr>
+                            <td class="thead-one">AP学科课程</td>
+                            <td class="thead-two">
+                                AP微积分BC 同步班
+                                AP物理1&2同步班
+                                AP物理c同步班 AP化学同步班
+                                AP宏观经济同步A 、B班
+                            </td>
+                            <td class="thead-two">1-3人</td>
+                            <td class="thead-three">牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,牢固掌握雅思基础词汇,听说与阅读同步提高,</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+</body>
+
+</html>

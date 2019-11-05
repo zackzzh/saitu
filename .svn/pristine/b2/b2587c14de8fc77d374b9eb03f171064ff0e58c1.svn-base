@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/course-detail.less" />
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <title>课程介绍详情</title>
+</head>
+
+<body>
+    <div id="common-modal"></div>
+    <div id="common-head"></div>
+    <div id="common-qr"></div>
+    <div class="page-course">
+        <div class="banner">
+            <img src="./img/course/banner.png" alt="">
+            <div class="add-us">立即开启</div>
+        </div>
+        <div class="container course-content">
+            <div class="course-title">赛图GMAT提升段课程</div>
+            <div class="d-flex flex-wrap">
+                <div class="course-bg course-one">
+                    <div class="course-top top-one d-flex justify-content-center align-items-center">
+                        <img src="./img/course/d1.png" alt="">
+                        <span>目标</span>
+                    </div>
+                    <div class="course-bottom">
+                        冲700分
+                    </div>
+                </div>
+                <div class="course-bg course-two">
+                    <div class="course-top top-two d-flex justify-content-center align-items-center">
+                        <img src="./img/course/d4.png" alt="">
+                        <span>课时</span>
+                    </div>
+                    <div class="course-bottom">
+                        72，历时3周，Verbal，Quantitative和
+                    </div>
+                </div>
+                <div class="course-bg course-three">
+                    <div class="course-top top-one d-flex justify-content-center align-items-center">
+                        <img src="./img/course/d3.png" alt="">
+                        <span>教师</span>
+                    </div>
+                    <div class="course-bottom">
+                        3-4名一线教师
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap">
+                <div class="course-bg course-four">
+                    <div class="course-top top-two d-flex justify-content-center align-items-center">
+                        <img src="./img/course/d2.png" alt="">
+                        <span>对象</span>
+                    </div>
+                    <div class="course-bottom">
+                        基础段课程结束者或定级测试正确
+                        率在75%以上者基础段课程结束者或定级测试正确
+                    </div>
+
+                </div>
+                <div class="course-bg course-five">
+                    <div class="course-top top-one d-flex justify-content-center align-items-center">
+                        <img src="./img/course/d1.png" alt="">
+                        <span>学生</span>
+                    </div>
+                    <div class="course-bottom">
+                        1v1、1v3、1v6
+                    </div>
+                </div>
+            </div>
+            <div class="course-detail">
+                <div class="detail-one">
+                    此阶段将学习应试技巧，与解题思路
+                </div>
+                <div class="detail-two">
+                    <p>
+                        阅读在这个阶段学生的词汇量，长难句，段落结构和常见的篇章思路已经不是问题。在这个阶段学生需要掌握快速定位的能力，同义转述的能力，找到关键的，次要的或者隐含的信息并做出合乎逻辑的推理能力，甚至还需要对文章不同区域中出现的信息做综合分析的能力，即：能够在更加有难度的文章里找到并解读次要或者隐含的细节；能够在复杂的文章里找到重要细节；能够在更加有难度的文章里做出隐含的符合逻辑的结论；能够在复杂的文章里做出简单的符合逻辑的结论；能够对比较有难度的文章里的任何命题进行统一转述；
+                    </p>
+
+                    <p>
+                        数学部分对于绝大多数中国高中生来说，难度很低，在储备相关词汇的同时，提高题干阅读技巧与速度的同时，赛图国际教育的老师们为各位考生在算数，初级代数，中级代数，几何坐标，平面几何和三角学六大板块中的38个知识点进行了总结和提炼，助力各位数学高分或满分；
+                    </p>
+
+                    <p>
+                        作文：表达力求简洁，清晰，具体，并且让学生明白追求所谓的高级词汇是不可取的，词汇使用的准确才是最重要的，近义表达的储备在这个板块必须全面展开。文章组织精练、有重点，文理通顺，思路流畅；显示出语言应用方面的能力，用词恰当；句型结构多样化，在语法，习惯用法和技巧方面答题没有常见错误。
+                    </p>
+
+                    <p>
+                        语法：ACT语法以文章改错为考察形式，以记叙文，传记说明文考试等体裁出现，考察学生对基础语法知识和语篇的衔接与连贯的掌控能力，在这个板块，赛图国际教育的老师们将会帮助各位考生严把两条主线：语篇修辞（35题）和基础语法（40题）。在语篇题中着重帮助各位提高段落组织（16%）能力和语言表达（14%）能力，不仅仅有助于提高语法题正确率，也会有利于提高写作能力；在语法题方面着重帮各位树立语法结构，标点符号和词性用法，最终帮大家突破瓶颈，取得高分。
+                    </p>
+
+                    <p>
+                        科学推理：共分三类文章，即数据分析，实验总结和观点冲突。数据分析和实验总结类文章往往文字数量较少，主要考察学生对实验装置图像，数据图，表格中信息的提取和比较，由于文字少，大多数学生能够快速完成。赛图国际教育就这个板块把重心放在观点冲突类文章。教给各位如何做好观点理解，观点比较和背景知识储备，进而一举拿下科学推理题。
+                    </p>
+
+                </div>
+                <div class="detail-three">
+                    备注:另有ACT预备段，基础段，突破段和高分段相关课程以及不同类型的班级，课程与费用详情请咨询课程顾问。
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script>
+        new WOW().init();
+        $(".add-us").click(function () {
+            $("#common-modal").css({ display: 'block' })
+            $("#common-modal .common-modal").css({ display: 'block', right: '0px', left: '50%', transform: 'translateX(-50%)' })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    background: #f5f5f4;
+
+    .study-abroad-main-div {
+        width: 1000px;
+        margin: auto;
+
+        .abroad-list {
+            margin-top: 80px;
+            color: #EB6D6E;
+
+            a {
+                color: #333;
+            }
+
+            .active {
+                color: #EB6D6E;
+            }
+
+            a:hover {
+                color: #EB6D6E;
+            }
+        }
+
+        .study-abroad-card-div {
+            cursor: pointer;
+            width: 1000px;
+            margin: 90px 0;
+            background: #0C273C;
+
+            .study-abroad-img-div {
+                display: inline-block;
+                width: 54%;
+                position: relative;
+                text-align: center;
+
+                .study-abroad-img-type {
+                    width: 100%;
+                }
+
+                .study-abroad-img-title {
+                    // background-color: red;
+                    color: white;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0; //水平居中
+                    right: 0; //水平居中
+                    width: 100%; //水平居中
+                    height: 20%;
+                    margin: auto;
+                    font-size: 54px;
+                    font-weight: bold;
+                }
+            }
+
+            .study-abroad-card-div-text {
+                float: right;
+                width: 46%;
+                // display: inline-block;
+                margin: 30px 40px 0 -40px;
+                padding: 0 0 0 50px;
+
+                .study-abroad-card-title {
+                    color: #EB6D6E;
+                    font-size: 44px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+
+                .study-abroad-card-content {
+                    color: #EB6D6E;
+                    font-size: 20px;
+                    word-break: break-all;
+                }
+
+                // .tooltip1 {
+                //     color: #EB6D6E;
+                //     position: relative;
+                //     display: inline-block;
+                //     // border-bottom: 1px dotted black;
+                // }
+
+                // .tooltip1 .tooltiptext {
+                //     visibility: hidden;
+                //     width: 120%;
+                //     background-color: black;
+                //     color: #fff;
+                //     text-align: center;
+                //     border-radius: 6px;
+                //     padding: 5px 0;
+                //     position: absolute;
+                //     z-index: 1;
+                //     top: 104%;
+                //     left: 4%;
+                //     margin-left: -60px;
+                // }
+
+                // .tooltip1 .tooltiptext::after {
+                //     content: "";
+                //     position: absolute;
+                //     bottom: 100%;
+                //     left: 50%;
+                //     margin-left: -5px;
+                //     border-width: 5px;
+                //     border-style: solid;
+                //     border-color: transparent transparent black transparent;
+                // }
+
+                // .tooltip1:hover .tooltiptext {
+                //     visibility: visible;
+                // }
+
+
+
+
+
+                img {
+                    clear: both;
+                    float: right;
+                    height: 102px;
+                    margin: 0 0 0 40px;
+                }
+            }
+        }
+    }
+
+    .study-modal-close {
+        font-size: 50px;
+        color: red;
+        margin: 0 6px 0 0;
+    }
+
+    .study-modal-div {
+        background: rgba(105, 114, 121, 1);
+        padding: 38px 30px;
+        color: rgba(12, 39, 60, 1);
+
+        .study-modal-title-div {
+            text-align: center;
+
+            .study-modal-img {
+                margin: -14px 6px 0 0;
+                height: 32px;
+            }
+
+            .study-modal-title {
+                display: inline-block;
+                font-size: 32px;
+                font-weight: bold;
+                color: #ec6d6e
+            }
+        }
+
+        .study-modal-content {
+            margin-top: 10px;
+            letter-spacing: 2px;
+
+        }
+    }
+}

@@ -1,0 +1,134 @@
+.join-main-div {
+    position  : relative;
+    background: #f5f5f4;
+    text-align: center;
+
+    .join-headbg {
+        width: 100%;
+    }
+
+    .join-joinus-div {
+        position        : relative;
+        margin          : -60px 100px 0 100px;
+        background-image: url("../../img/join/joinus.png");
+        background-size : 100% 100%;
+        // background   : #ffffff;
+        // box-shadow   : 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+        letter-spacing  : 2px;
+
+        .join-joinus-title {
+            padding    : 14px 0 20px 0;
+            color      : #333333;
+            font-size  : 22px;
+            font-weight: bold;
+        }
+
+        .join-joinus-content {
+            padding    : 0 30px 30px 30px;
+            color      : rgba(102, 102, 102, 1);
+            font-size  : 14px;
+            font-weight: bold;
+            line-height: 24px;
+        }
+    }
+
+    .join-teacher-div {
+        margin: 60px 0;
+
+        .join-teacher-title {
+            margin-bottom : 22px;
+            color         : rgba(37, 37, 37, 1);
+            font-size     : 18px;
+            font-weight   : 600;
+            letter-spacing: 2px;
+        }
+
+        .join-teacher-card-div {
+            text-align: left;
+
+            .join-teacher-card {
+                margin          : 10px;
+                background-image: url("../../img/join/cardbg.png");
+                background-size : 100% 100%;
+                display         : flex;
+                justify-content : space-between;
+
+                .join-teacher-card-img {
+                    width : 80px;
+                    height: 80px;
+                    margin: 10px 0 0 -30px;
+                }
+
+                .join-teacher-card-text {
+                    margin        : 22px 14px 18px 14px;
+                    letter-spacing: 1px;
+                    font-size     : 16px;
+
+                    .join-teacher-card-title {
+                        margin     : 0 0 10px 0;
+                        color      : rgba(34, 34, 34, 1);
+                        font-weight: bold;
+                    }
+
+                    .join-teacher-card-content {
+                        color: rgba(102, 102, 102, 1);
+                    }
+                }
+            }
+        }
+    }
+
+    .join-card-div {
+        // position: relative;
+        padding    : 10px 0 46px 0;
+
+        img {
+            width        : 100%;
+            margin-bottom: 20px;
+        }
+
+        .join-card-idea-div {
+            margin-bottom  : 20px;
+            // width       : 100%;
+            height         : calc(26vh);
+            background     : #ffffff;
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+
+            .join-card-idea {
+                font-size     : 16px;
+                letter-spacing: 2px;
+                text-align    : center;
+
+                .join-card-idea-title {
+                    margin-bottom: 20px;
+                    color        : rgba(51, 51, 51, 1);
+                    font-weight  : bold;
+                }
+
+                .join-card-idea-content {
+                    margin     : 0 20px;
+                    color      : rgba(102, 102, 102, 1);
+                    line-height: 36px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+    .join-main-div {
+        .join-card-div {
+            .join-card-idea-div {
+                height: calc(21.6vh);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:576px) {
+    .join-joinus-div {
+        margin: 0 !important;
+    }
+}

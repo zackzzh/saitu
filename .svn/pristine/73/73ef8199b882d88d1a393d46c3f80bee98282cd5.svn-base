@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/less" href="./css/cases.less" />
+    <link rel="stylesheet" href="./swiper/css/swiper.min.css">
+    <script src="./config/dots_sum.js"></script>
+    <script src="./config/head_import.js"></script>
+    <script src="./swiper/js/swiper.min.js"></script>
+    <title>成功案例</title>
+</head>
+
+<body>
+    <div id="common-head"></div>
+	<div id="common-qr"></div>
+    <div class="cases">
+        <!-- 成功案例 -->
+        <div class="container cases">
+            <div class="index-t">
+                <div>成功案例</div>
+                <div>Successful cases</div>
+            </div>
+            <div class="cases-bg">
+                <div class="bg-top">
+                    <div class="top-title">录取榜</div>
+                    <div class="top-line"></div>
+                    <div>Admission list</div>
+                </div>
+                <div class="d-flex flex-wrap p-2 cases-list">
+                    <div class="d-flex align-items-center col-md-6 col-xl-4 team-item cases-item">
+                        <div class="d-flex align-items-center flex-shrink-1 item-one">
+                            <div class="img">
+                                <img src="img/index/l1.png" alt="">
+                            </div>
+                            <div class="casae-title d-flex flex-column-reverse justify-content-center">
+                                <div>普林斯顿大学</div>
+                                <div>Princeton university</div>
+                            </div>
+                        </div>
+                        <div class="cases-number flex-shrink-0">12人</div>
+                    </div>
+                    <div class="d-flex align-items-center col-md-6 col-xl-4 team-item cases-item">
+                        <div class="d-flex align-items-center flex-shrink-1 item-one">
+                            <div class="img">
+                                <img src="img/index/l1.png" alt="">
+                            </div>
+                            <div class="casae-title d-flex flex-column-reverse justify-content-center">
+                                <div>普林斯顿大学</div>
+                                <div>Princeton university</div>
+                            </div>
+                        </div>
+                        <div class="cases-number flex-shrink-0">12人</div>
+                    </div>
+                    <div class="d-flex align-items-center col-md-6 col-xl-4 team-item cases-item">
+                        <div class="d-flex align-items-center flex-shrink-1 item-one">
+                            <div class="img">
+                                <img src="img/index/l1.png" alt="">
+                            </div>
+                            <div class="casae-title d-flex flex-column-reverse justify-content-center">
+                                <div>普林斯顿大学</div>
+                                <div>Princeton university</div>
+                            </div>
+                        </div>
+                        <div class="cases-number flex-shrink-0">12人</div>
+                    </div>
+                    <div
+                        class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+                        <div class="d-flex align-items-center flex-shrink-1 item-one">
+                            <div class="img">
+                                <img src="img/index/l1.png" alt="">
+                            </div>
+                            <div class="casae-title d-flex flex-column-reverse justify-content-center">
+                                <div>普林斯顿大学</div>
+                                <div>Princeton university</div>
+                            </div>
+                        </div>
+                        <div class="cases-number flex-shrink-0">12人</div>
+                    </div>
+                    <div
+                        class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+                        <div class="d-flex align-items-center flex-shrink-1 item-one">
+                            <div class="img">
+                                <img src="img/index/l1.png" alt="">
+                            </div>
+                            <div class="casae-title d-flex flex-column-reverse justify-content-center">
+                                <div>普林斯顿大学</div>
+                                <div>Princeton university</div>
+                            </div>
+                        </div>
+                        <div class="cases-number flex-shrink-0">12人</div>
+                    </div>
+                    <div
+                        class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+                        <div class="d-flex align-items-center flex-shrink-1 item-one">
+                            <div class="img">
+                                <img src="img/index/l1.png" alt="">
+                            </div>
+                            <div class="casae-title d-flex flex-column-reverse justify-content-center">
+                                <div>普林斯顿大学</div>
+                                <div>Princeton university</div>
+                            </div>
+                        </div>
+                        <div class="cases-number flex-shrink-0">12人</div>
+                    </div>
+                    <div
+                        class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+                        <div class="d-flex align-items-center flex-shrink-1 item-one">
+                            <div class="img">
+                                <img src="img/index/l1.png" alt="">
+                            </div>
+                            <div class="casae-title d-flex flex-column-reverse justify-content-center">
+                                <div>普林斯顿大学</div>
+                                <div>Princeton university</div>
+                            </div>
+                        </div>
+                        <div class="cases-number flex-shrink-0">12人</div>
+                    </div>
+                    <div
+                        class="d-flex align-items-center justify-content-between col-md-6 col-xl-4 team-item cases-item">
+                        <div class="d-flex align-items-center flex-shrink-1 item-one">
+                            <div class="img">
+                                <img src="img/index/l1.png" alt="">
+                            </div>
+                            <div class="casae-title d-flex flex-column-reverse justify-content-center">
+                                <div>普林斯顿大学</div>
+                                <div>Princeton university</div>
+                            </div>
+                        </div>
+                        <div class="cases-number flex-shrink-0">12人</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container select">
+            <div class="select-one d-flex">
+                <div class="one-left">
+                    <img src="./img/cases/c2.png" alt="">
+                    留学国家
+                </div>
+                <div class="one-right d-flex align-items-center">
+                    <div class="item active flex-shrink-0">中国</div>
+                    <div class="item flex-shrink-0">日本</div>
+                    <div class="item flex-shrink-0">荷兰</div>
+                    <div class="item flex-shrink-0">西班牙</div>
+                    <div class="item flex-shrink-0">澳大利亚</div>
+                    <div class="item flex-shrink-0">英国</div>
+                    <div class="item flex-shrink-0">葡萄牙</div>
+                    <div class="item flex-shrink-0">希腊</div>
+                    <div class="item flex-shrink-0">意大利</div>
+                    <div class="item flex-shrink-0">韩国</div>
+                    <div class="item flex-shrink-0">葡萄牙</div>
+                    <div class="item flex-shrink-0">葡萄牙</div>
+                    <div class="item flex-shrink-0">希腊</div>
+                    <div class="item flex-shrink-0">意大利</div>
+                    <div class="item flex-shrink-0">韩国</div>
+                    <div class="item flex-shrink-0">葡萄牙</div>
+                    <div class="item flex-shrink-0">意大利</div>
+                    <div class="item flex-shrink-0">韩国</div>
+                    <div class="item flex-shrink-0">葡萄牙</div>
+                    <div class="item flex-shrink-0">意大利</div>
+                    <div class="item flex-shrink-0">意大利</div>
+                    <div class="item flex-shrink-0">韩国</div>
+                    <div class="item flex-shrink-0">葡萄牙</div>
+                    <div class="item flex-shrink-0">意大利</div>
+                </div>
+            </div>
+            <div class="select-one d-flex">
+                <div class="one-left">
+                    <img src="./img/cases/c1.png" alt="">
+                    留学院校
+                </div>
+                <div class="one-right1 d-flex align-items-center">
+                    <div class="item active flex-shrink-0">宾夕法尼亚大学</div>
+                    <div class="item flex-shrink-0">皇家艺术学院</div>
+
+                    <div class="item flex-shrink-0">罗德岛设计学院</div>
+                    <div class="item flex-shrink-0">纽约视觉艺术学院</div>
+                    <div class="item flex-shrink-0">伦敦时装学院</div>
+                    <div class="item flex-shrink-0">罗德岛设计学院</div>
+                    <div class="item flex-shrink-0">纽约视觉艺术学院</div>
+                    <div class="item flex-shrink-0">伦敦时装学院</div>
+                    <div class="item flex-shrink-0">罗德岛设计学院</div>
+                    <div class="item flex-shrink-0">纽约视觉艺术学院</div>
+                    <div class="item flex-shrink-0">纽约视觉艺术学院</div>
+                    <div class="item flex-shrink-0">伦敦时装学院</div>
+                    <div class="item flex-shrink-0">罗德岛设计学院</div>
+                    <div class="item flex-shrink-0">纽约视觉艺术学院</div>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap">
+                <div class="col-sm-6 col-md-6 col-xl-4 team-item p-2 team1">
+                    <img src="img/index/x1.png" alt="" class="img">
+                    <div class="bottom">
+                        <div class="team-name d-flex align-items-center">
+                            <img src="./img/cases/c3.png" alt="">
+                            <span>美国加芝哥大学 Lily 同学</span>
+                        </div>
+                        <div class="team-line">
+                            婚纱摄影行业网站建设的必要性 婚纱摄影行业针对的是准备结婚的年轻人士，现在的年轻人都依赖于电脑来搜索需要的信息。因此婚纱摄影网站不仅是品牌形象的象征，还能给公司带...
+                        </div>
+                        <div class="button row d-flex justify-content-around">
+                            <button class="col-5 detail">
+                                查看详情
+                            </button>
+                            <button class="col-5">
+                                建站咨询
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 team-item p-2 team1">
+                    <img src="img/index/x2.png" alt="" class="img">
+                    <div class="bottom">
+                        <div class="team-name d-flex align-items-center">
+                            <img src="./img/cases/c3.png" alt="">
+                            <span>美国加芝哥大学 Lily 同学</span>
+                        </div>
+                        <div class="team-line">
+                            婚纱摄影行业网站建设的必要性 婚纱摄影行业针对的是准备结婚的年轻人士，现在的年轻人都依赖于电脑来搜索需要的信息。因此婚纱摄影网站不仅是品牌形象的象征，还能给公司带...
+                        </div>
+                        <div class="button row d-flex justify-content-around">
+                            <button class="col-5 detail">
+                                查看详情
+                            </button>
+                            <button class="col-5">
+                                建站咨询
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-4 team-item p-2 team1">
+                    <img src="img/index/x3.png" alt="" class="img">
+                    <div class="bottom ">
+                        <div class="team-name d-flex align-items-center">
+                            <img src="./img/cases/c3.png" alt="">
+                            <span>美国加芝哥大学 Lily 同学</span>
+                        </div>
+                        <div class="team-line">
+                            婚纱摄影行业网站建设的必要性 婚纱摄影行业针对的是准备结婚的年轻人士，现在的年轻人都依赖于电脑来搜索需要的信息。因此婚纱摄影网站不仅是品牌形象的象征，还能给公司带...
+                        </div>
+                        <div class="button row d-flex justify-content-around">
+                            <button class="col-5 detail">
+                                查看详情
+                            </button>
+                            <button class="col-5">
+                                建站咨询
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="common-footer"></div>
+    <script src="./config/body_import.js"></script>
+    <script src="./js/cases.js"></script>
+</body>
+
+</html>

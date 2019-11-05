@@ -1,0 +1,94 @@
+<div class="common-modal" id="modal">
+    <div class="modal-top">
+        <div class="top-one">注册报名</div>
+        <div class="top-two">获得一次<span>免费</span>留学评估</div>
+        <div class="top-three" id="three" onclick="closeo()">X</div>
+    </div>
+    <div class="modal-form">
+        <form>
+            <div class="form-group d-flex align-items-center">
+                <label for="name">
+                    <span>姓名：</span>
+                </label>
+                <input type="text" class="form-control none" id="custName">
+            </div>
+            <div class="form-group d-flex align-items-center">
+                <label for="name">
+                    <span>电话：</span>
+                </label>
+                <input type="tel" class="form-control none" id="custPhone">
+            </div>
+            <div class="form-group d-flex align-items-center one">
+                <label for="custRemark" class="d-flex align-items-center">
+                    <span>意向国家：</span>
+                </label>
+                <select id="custRemark">
+                    <option value="请选择">请选择</option>
+                    <option value="日本">日本</option>
+                    <option value="荷兰">荷兰</option>
+                    <option value="西班牙">西班牙</option>
+                    <option value="澳大利亚">澳大利亚</option>
+                    <option value="英国">英国</option>
+                    <option value="葡萄牙">葡萄牙</option>
+                    <option value="韩国">韩国</option>
+                    <option value="希腊">希腊</option>
+                </select>
+            </div>
+            <div class="form-group d-flex align-items-center one">
+                <label for="custCurose" class="d-flex align-items-center">
+                    <span>攻读学位：</span>
+                </label>
+                <select id="custCurose">
+                    <option value="请选择">请选择</option>
+                    <option value="预科">预科</option>
+                    <option value="本科">本科</option>
+                    <option value="研究生">研究生</option>
+                    <option value="博士">博士</option>
+                </select>
+            </div>
+            <div class="form-group d-flex align-items-center one">
+                <label for="custCurose" class="d-flex align-items-center">
+                    <span>所在地区：</span>
+                </label>
+                <select id="custCurose">
+                    <option value="请选择">请选择</option>
+                    <option value="北京">北京</option>
+                    <option value="上海">上海</option>
+                    <option value="广州">广州</option>
+                    <option value="深圳">深圳</option>
+                    <option value="成都">成都</option>
+                    <option value="杭州">杭州</option>
+                </select>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">我接受并同意
+                    <a href="">《用户服务条款》</a>和<a href="">《隐私权相关政策》</a>
+                </label>
+            </div>
+            <div class="button d-flex justify-content-center">
+                <div id="submit" class="button1">获取免费评估</div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="common-show" id="show" onclick="showModal()">
+    <div id="submit" class="button1">注册报名</div>
+</div>
+<script>
+    // setTimeout(() => {
+    //     document.getElementById("modal").style.display = 'block'
+    //     // $("#modal").addClass("common-modal-animation")
+    // }, 1000);
+    setTimeout(() => {
+        $("#modal").addClass("common-modal-animation")
+    }, 2000);
+    function closeo() {
+        document.getElementById("modal").style.display = 'none'
+        document.getElementById("show").style.display = 'block'
+    }
+    function showModal() {
+        document.getElementById("modal").style.display = 'block'
+        document.getElementById("show").style.display = 'none'
+    }
+</script>
